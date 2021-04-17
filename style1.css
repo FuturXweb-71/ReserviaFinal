@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
-body
+html, body
 {
   font-family: "Raleway", "Sans serif";
-  margin: 0;
+  margin: 10px;
+  min-height: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
 }
 
 a
@@ -12,11 +15,12 @@ a
   text-decoration: none;
 }
 
-.header
+.header /* Menu Reservia */
+
 {
   display: grid;
   align-items: center;
-  max-width: 1440px;
+  max-width: 100%;
   margin: auto;
 }
 
@@ -735,4 +739,36 @@ a
   {
     margin-bottom: 0;
   }
+}
+
+/* images hébergement */
+#container
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#container-1
+{
+    float: left;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    border: solid 1px;
+    margin: auto 10px; /* auto pour flex centre aussi verticalement */
+    padding: 10px;
+}
+
+#container-2
+{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    border: solid 1px;
+    margin: auto 10px; /* auto pour flex centre aussi verticalement */
+    padding: 10px;
 }
