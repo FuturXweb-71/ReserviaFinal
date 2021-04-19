@@ -1,79 +1,44 @@
-@import url ("https://fonts.googleapis.com/css?family=Raleway:700,regular,italic,700italic&display=swap");
-
-html, body
+body
 {
     min-height: 100%;
 }
 
 body
 {
-	background-color: rgb(109, 109, 109);
-	background-image: linear-gradient(to bottom, #0009, transparent);
+	background-color: rgb(255, 255, 255);
 	color: #eee;
-	font-size: 72.5%;
+	font-size: 100%;
 	padding: 0 20px;
-	box-sizing: border-box;
 }
 
 /* Menu Reservia */
-#header
+.header
 {
-	position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-ul
+.menu
 {
-    float: right;
-    list-style-type: none;
-}
-
-li
-{
-    float: left; /* pour IE */
-    border-left: 2px solid  rgb(222, 235, 255);
-    border-right: 2px solid  rgb(222, 235, 255);
-}
-   
-ul li a
-{
-    display: block;
-    float: left;   
-    width: 100px;
-    line-height: 30px; /*hauteur de l'image de fond*/
-    background: rgb(0, 101, 252) url() repeat-x;
-    color: #ffffff;
-    text-decoration: none;
-    text-align: center; /*alignement du texte des boutons*/
-   }
-
-ul li a:hover
-{
-    background:rgb(222, 235, 255) url() repeat-x;
-    color:rgb(0, 0, 0);
-}  
-
-li
-{
-    margin-left: 14px;
+	height: 60px;
+    background: #eee;
+    display: flex;
+    align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-ul li a
+@media (max-width: 480px)
+.menu
 {
-    display: block;
-    float: left;
-    width: 100px;
-    background-color: 6495ED;
-    color: black;
-    text-decoration: none;
-    padding: 5px;
-    border: 1px solid;
+    flex-direction: column;
+    height: auto;
 }
 
-ul li a:hover
+.menu
 {
-    background-color: #D3D3D3;
-    border-color:#696969 #863131 #dcdcdc #696969;
+    padding: 0 5px;
 }
 
 /* images hébergement */
@@ -101,7 +66,8 @@ ul li a:hover
 #container-2
 {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    flex-wrap: wrap;    
     align-items: center;
     border: solid 1px;
     margin: auto 10px; /* auto pour flex centre aussi verticalement */
