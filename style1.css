@@ -1,32 +1,48 @@
-body
+.body
 {
     min-height: 100%;
-}
-
-body
-{
 	background-color: rgb(255, 255, 255);
 	color: #eee;
-	font-size: 100%;
-	padding: 0 20px;
+	font-size: 0 20px;
+}
+
+.logo
+{
+    display: flex;
+    height: 60px;
+    min-width: 240px;
+    margin-left: 20px;
 }
 
 /* Menu Reservia */
-.header
+.nav
 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-right: 20px;
+    width: 100%;
 }
 
 .menu
 {
-	height: 60px;
-    background: #eee;
+	height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    width: 30%;
+}
+
+.label1
+{
+    border-top: solid 4px;
+    color: #0065FC;
+}
+
+.label3
+{
+    color: #0065FC;
 }
 
 @media (max-width: 480px)
@@ -36,9 +52,9 @@ body
     height: auto;
 }
 
-.menu
+.menu a
 {
-    padding: 0 5px;
+    padding: 0 5px;;
 }
 
 /* images hébergement */
