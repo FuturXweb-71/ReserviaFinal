@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway:700,regular,italic,700italic&display=swap';
+@import url ("https://fonts.googleapis.com/css?family=Raleway:700,regular,italic,700italic&display=swap");
 
 html, body
 {
@@ -29,7 +29,7 @@ ul
 
 li
 {
-    float: left; /*pour IE*/
+    float: left; /* pour IE */
     border-left: 2px solid  rgb(222, 235, 255);
     border-right: 2px solid  rgb(222, 235, 255);
 }
