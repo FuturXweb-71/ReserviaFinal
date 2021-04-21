@@ -9,22 +9,69 @@
     <meta name="viewport" content="width=1280" />   
     <title>Projet-Reservia-2021</title>    
     <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/406da18a0b.js" crossorigin="anonymous" defer ></script>
 </head>
 
 <body>
     <div class="nav">
         <div class="logo"><img src="Reservia.svg" alt="logo Reservia" srcset="Reservia@3x.png"></div>
             <ul class="menu">
-                <a class="label1" >Hébergements</a>
-                <a class="label2" >Activités</a>
-                <a class="label3" ><b>S&#39;inscrire</b></a>
+                <a class="label1">Hébergements</a>
+                <a class="label2">Activités</a>
+                <a class="label3"><b>S&#39;inscrire</b></a>
             </ul>
         </div>
     </nav>
-    <div class="title"></div> <h1>Trouvez votre hébergement pour des vacances de rêve</h1></div>
-    <div class="title"><h2>En plein centre-ville ou en pleine nature</h2></div>
-        <br />
-    </div>
+    <div class="title"></div><h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+    <div class="title"><h2>En plein centre-ville ou en pleine nature</h2><br /></div>
+
+    <!-- search et filtres -->
+    <section class="search">
+
+        <form class="search"></div>
+            <span class="searchFormWrapIcon">
+                <i class="fas fa-map-marker-alt searchFormWrapiconIcon"></i>
+            </span>
+            <input class="searchFormSearchinput" type="search" placeholder="Marseille, France" size="1">
+            <button class="searchFormSubmitinput">
+                <span class="searchFormSubmitinputText">Rechercher</span>
+                <i class="searchFormSubmitinputIcon fas fa-search"></i>
+            </button>
+        </form>
+
+        <div class="searchFilters">
+            <h2 class="searchFiltersTitle">Filtres</h2>
+            <div class="searchFiltersFilter">
+                <div class="searchFiltersFilterWrapicon">
+                    <i class="fas fa-money-bill-wave searchFiltersFilterWrapiconIcon"></i>
+                </div>
+                <span class="searchFiltersFilterTitle">Économique</span>
+            </div>
+            <div class="searchFiltersFilter">
+                <div class="searchFiltersFilterWrapicon">
+                    <i class="fas fa-child searchFiltersFilterWrapiconIcon"></i>
+                </div>
+                <span class="searchFiltersFilterTitle">Familial</span>
+            </div>
+            <div class="searchFiltersFilter">
+                <div class="searchFiltersFilterWrapicon">
+                    <i class="fas fa-heart searchFiltersFilterWrapiconIcon"></i>
+                </div>
+                <span class="searchFiltersFilterTitle">Romantique</span>
+            </div>
+            <div class="searchFiltersFilter">
+                <div class="searchFiltersFilterWrapicon">
+                    <i class="fas fa-dog searchFiltersFilterWrapiconIcon"></i>
+                </div>
+                <span class="searchFiltersFilterTitle">Animaux autorisés</span>
+            </div>
+        </div>
+        <div class="searchResult">
+            <div class="searchResultWrapicon"><i class="fas fa-info searchResultWrapiconIcon"></i></div>
+            <p class="searchResultText">Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+    </section>
+
     <div>
         <div id="container-1">
             <div class="img"><img src="images\hebergements\4_small\1.png" alt="image1"></div>
