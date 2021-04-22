@@ -45,12 +45,6 @@ body
     color: #0065FC;
 }
 
-@media (max-width: 480px)
-menu
-{
-    
-}
-
 .menu a
 {
     padding: 0 5px;;
