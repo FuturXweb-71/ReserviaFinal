@@ -229,6 +229,11 @@ menu
     flex-wrap: wrap;
 }
 
+img, .item-img
+{
+    width: 50%;
+}
+
 .main-2
 {
     display: flex;
