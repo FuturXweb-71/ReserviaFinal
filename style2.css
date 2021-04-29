@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+a {
+    text-decoration: none;
+}
+
+.container {
+    font-family: "Raleway", "Sans serif";
+    min-height: 100%;
+    margin: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav .logo {
+    display: flex;
+    height: 80px;
+    width: 100%;
+}
+
+nav .menu {
+    display: flex;
+    flex-flow: column-wrap;
+    justify-content: center;
+}
+
+.
+/* Menu Reservia */
+
+.menu {
+    height: 160px;
+    display: flex;
+    width: 30%;
+}
+
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    list-style-type: none;
+}
+
+.nav a {
+    padding: 1em;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav a:hover {
+    text-decoration: overline;
+    color: #0065FC;
+}
+
+
+}

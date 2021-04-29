@@ -1,48 +1,70 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
-container {
+    /* police */
+
+@font-face {
+    font-family: "Raleway", "Sans serif";
+    src: url("static/Raleway-Regular.ttf");
+}
+
+h1 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}
+
+h2 h3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p aside {
+    font-family: "Raleway", "Sans serif";
+}
+
+
+/* contenu de la page */
+
+.container {
     min-height: 100%;
+    margin: 40px;
     background-color: rgb(255, 255, 255);
 }
 
 .logo {
     display: flex;
+    flex-wrap: no-wrap;
     height: 80px;
     width: 100%;
+    padding: -40px;
 }
 
 
 /* Menu Reservia */
 
-.nav {
+.nav li {
     display: flex;
+    flex-wrap: no-wrap;
     align-items: center;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: flex-start;
+    width: 20%;
+    list-style-type: none;
 }
 
-.menu {
-    height: 150px;
+.nav a {
+    padding: 2em;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav .menu {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 30%;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.menuitem:hover a {
-    border-top: solid 4px;
+nav a:hover {
+    text-decoration: overline;
     color: #0065FC;
-    max-height: 100px;
-}
-
-.label1 {}
-
-.label3 {
-    color: #0065FC;
-}
-
-.menu a {
-    padding: 60px 15px;
 }
 
 
@@ -327,7 +349,7 @@ container {
     height: 8.75rem;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1440px) and (min-width: 480px) {
     .hosting {
         grid-template-columns: 1fr;
         row-gap: 2rem;
@@ -341,30 +363,11 @@ container {
     .hostingPopularTitle {
         grid-column: 1/-1;
     }
-}
-
-@media (min-width: 925px) {
     .hostingMain {
         grid-template-columns: repeat(3, 1fr);
     }
-}
-
-@media (max-width: 925px) and (min-width: 650px) {
     .hostingMain {
         grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (max-width: 650px) {
-    .hostingMain {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 1000px) {
-    .hostingPopular {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto repeat(3, 9rem);
     }
 }
 
@@ -408,7 +411,7 @@ container {
     text-align: center;
 }
 
-@media (min-width: 1100px) {
+@media (max-width: 1280px) and (min-width: 720px) {
     .activity {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
@@ -437,44 +440,36 @@ container {
         grid-column: 4/5;
         grid-row: 4/7;
     }
-}
-
-@media (max-width: 1100px) {
-    .activity {
-        row-gap: 2rem;
-        grid-template-columns: repeat (3, 1fr);
-        grid-template-rows: auto 12rem 12rem;
+    @media (max-width: 720px) and (min-width: 480px) {
+        .activity {
+            row-gap: 2rem;
+            grid-template-columns: repeat (3, 1fr);
+            grid-template-rows: auto 12rem 12rem;
+        }
+        .activity {
+            row-gap: 2rem;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto 12rem 12rem 12rem;
+        }
+        .activity {
+            row-gap: 2rem;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
+        }
     }
-}
-
-@media (max-width: 925px) {
-    .activity {
-        row-gap: 2rem;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto 12rem 12rem 12rem;
+    /* footer */
+    .footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #F2F2F2;
     }
-}
-
-@media (max-width: 650px) {
-    .activity {
-        row-gap: 2rem;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
+    .label {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
-}
-
-
-/* footer */
-
-.footer {
-    display: flex;
-    flex-direction: column;
-    background-color: #F2F2F2;
-}
-
-.label {
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
