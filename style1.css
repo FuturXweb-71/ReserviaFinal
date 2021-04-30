@@ -38,6 +38,10 @@ h2 a {
     list-style-type: none;
 }
 
+.nav li:hover{
+    border-top: 4px solid blue;
+}
+
 .nav a {
     padding: 1em;
     display: block;
@@ -52,7 +56,7 @@ h2 a {
 }
 
 .menu a:hover {
-    text-decoration: overline;
+    /* text-decoration: overline; */
     color: #0065FC;
 }
 
