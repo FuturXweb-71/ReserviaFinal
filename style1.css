@@ -23,7 +23,7 @@ h2 a {
     flex-wrap: nowrap;
     height: 80px;
     width: 100%;
-    margin-left: -40px;   
+    margin-left: -40px;  
 }
 
 /* Menu Reservia */
@@ -52,11 +52,10 @@ h2 a {
 }
 
 .menu a:hover {
-    box-sizing: border-box;
-    width: 100%;
-    border-top: 4px;
+    text-decoration: overline;
     color: #0065FC;
 }
+
 
 /* espace recherche et fitres */
 
@@ -97,14 +96,12 @@ h2 a {
     width: 20rem;
     font-size: 1rem;
     text-align: center;
-    font-family: "Raleway", "Sans serif";
 }
 
 .searchFormSearchinput::placeholder {
     border: none;
     margin: 0;
     padding: 1.5rem 1.5rem 1.5rem 0;
-    font-family: "Raleway", "Sans serif";
     font-size: 1rem;
     color: #00000069;
 }
@@ -117,7 +114,6 @@ h2 a {
     border-radius: 0 1rem 1rem 0;
     padding: 1.5rem 1.5rem;
     margin: 4rem 2rem 4rem 0;
-    font-family: "Raleway", "Sans serif";
     font-size: 1rem;
     cursor: pointer;
 }
@@ -132,6 +128,7 @@ h2 a {
     margin: 0 2rem 1rem 2rem;
     display: flex;
     align-items: center;
+    margin-left: 0;
 }
 
 .searchFilter {
@@ -305,13 +302,12 @@ h2 a {
 .hostingPopularWrapcontent {
     display: flex;
     align-items: stretch;
-    height: 100%;
     overflow: auto;
 }
 
 .hostingPopularWrapcontentWrapimg {
     position: relative;
-    min-height: 100%;
+
     width: 33%;
     min-width: 33%;
     max-width: 33%;
@@ -320,7 +316,6 @@ h2 a {
 .hostingPopularWrapcontentWrapimgImg {
     border-radius: 1rem 0 0 1rem;
     position: absolute;
-    height: 100%;
     object-fit: cover;
 }
 
@@ -389,7 +384,6 @@ h2 a {
 
 .activityCardWrapimgImg {
     position: absolute;
-    height: 100%;
     object-fit: cover 0;
 }
 
@@ -449,7 +443,7 @@ h2 a {
         flex-direction: column;
         background-color: #F2F2F2;
     }
-    .footerColumn1 {
+    .footerColumn #1 #2 #3 {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
