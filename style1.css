@@ -1,5 +1,3 @@
-    /* police */
-
 @font-face {
     font-family: "Raleway", "Sans serif";
     src: url("static/Raleway-Regular.ttf");
@@ -8,20 +6,11 @@
 h1 a {
     text-decoration: none;
     font-weight: bold;
-    color: inherit;
 }
 
 h2 h3 a {
     text-decoration: none;
-    color: inherit;
 }
-
-p aside {
-    font-family: "Raleway", "Sans serif";
-}
-
-
-/* contenu de la page */
 
 .container {
     min-height: 100%;
@@ -29,12 +18,10 @@ p aside {
     background-color: rgb(255, 255, 255);
 }
 
-.logo {
+.nav .logo {
     display: flex;
-    flex-wrap: no-wrap;
     height: 80px;
     width: 100%;
-    padding: -40px;
 }
 
 
@@ -46,6 +33,7 @@ p aside {
     align-items: center;
     justify-content: flex-start;
     width: 20%;
+    margin-right: 0;
     list-style-type: none;
 }
 
@@ -84,20 +72,20 @@ nav a:hover {
     overflow: auto;
 }
 
-.searchFormWrapicon {
+.searchFormIcon {
     background-color: #F2F2F2;
     border-radius: 1rem 0 0 1rem;
     text-align: center;
 }
 
-.searchFormWrapiconIcon {
+.searchFormIconIcon {
     background-color: #F2F2F2;
     border: none;
     border-radius: 1rem 0 0 1rem;
     padding: 1.5rem 1.5rem;
 }
 
-.searchFormSearchinput {
+.searchFormSearchInput {
     border-right: none;
     border-left: none;
     border-top: #F2F2F2 1px solid;
@@ -119,7 +107,7 @@ nav a:hover {
     color: #00000069;
 }
 
-.searchFormSubmitinput {
+.searchFormSubmitInput {
     background-color: #0065FC;
     color: white;
     font-weight: bold;
@@ -144,7 +132,7 @@ nav a:hover {
     align-items: center;
 }
 
-.searchFiltersFilter {
+.searchFilter {
     display: flex;
     align-items: center;
     margin-right: 2rem;
@@ -156,16 +144,16 @@ nav a:hover {
     font-weight: bold;
 }
 
-.searchFiltersFilter:last-child {
+.searchFilter:last-child {
     margin-right: 0;
 }
 
-.searchFiltersFilter:hover {
+.searchFilter:hover {
     background-color: #f3f8ff;
     transform: scale(1.015);
 }
 
-.searchFiltersFilterWrapicon {
+.searchFilterIcon {
     background-color: #DEEBFF;
     border-radius: 100%;
     height: 3rem;
@@ -178,11 +166,11 @@ nav a:hover {
     margin: -2px;
 }
 
-.searchFiltersFilterWrapiconIcon {
+.searchFilterIcon {
     color: #0065FC;
 }
 
-.searchFiltersFilterTitle {
+.searchFilterTitle {
     margin: 0 1rem;
 }
 
@@ -349,7 +337,7 @@ nav a:hover {
     height: 8.75rem;
 }
 
-@media (max-width: 1440px) and (min-width: 480px) {
+@media (max-width: 1280px) and (min-width: 480px) {
     .hosting {
         grid-template-columns: 1fr;
         row-gap: 2rem;
@@ -411,7 +399,6 @@ nav a:hover {
     text-align: center;
 }
 
-@media (max-width: 1280px) and (min-width: 720px) {
     .activity {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
