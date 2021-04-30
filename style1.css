@@ -444,15 +444,15 @@ h2 a {
         }
     }
     /* footer */
-    .footer {
+    .mainFooter {
         display: flex;
         flex-direction: column;
         background-color: #F2F2F2;
     }
-    .footerColumn {
+    .footerColumn1 {
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         padding-top: 20px;
-        padding-bottom: 20px;
-       
+        padding-bottom: 20px;       
     }
