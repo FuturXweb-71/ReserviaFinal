@@ -1,43 +1,56 @@
-body {
-    min-height: 100%;
-    margin: 40px;
-    background-color: rgb(255, 255, 255);
-    font-family: 'Raleway', sans-serif;
+/* paramètres page police/marges */
+body{
+  font-family: "Raleway", sans-serif;
+  margin: 40px 40px;
 }
 
-#container{
-    display: flex;
-    flex-wrap: nowrap;
-    height: 80px;
-    width: 100%;
-    margin-left: 40px;
+/* paramètres header/image */
+header img {
+  height: 60px;
+  justify-content: left;
+  margin-left: -40px;
 }
 
-h1 h2 ul li a {
-    text-decoration: none;
+/* paramètres header/contenu global */
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;  
+  list-style-type: none;
 }
 
-header {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
+/* paramètres header/nav */
+header .nav {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+  margin-right: -40px;
+  font-weight: bold;
 }
 
-nav .logo {
-    display: flex;
-    flex-wrap: nowrap;
-    height: 80px;
-    width: 100%;
-    margin-left: -40px;
+/* paramètres header/liens */
+header li a:link {
+  text-decoration: none;
 }
 
-/* Menu Reservia */
-.nav li ul {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: flex-end;
-    width: 50%;
-    margin-right: 0;
-    list-style-type: none;
+/* paramètres header/liens survolés */
+div li a:hover {
+  color: #0065FC;
+  font-weight: bold;
+  border-top: 4px solid blue;
+  padding: 2em;
 }
+
+/* paramètres main/search */
+.form .FormIcon {
+  display: inline-flex;
+  max-width: 100%;
+  overflow: auto;
+}
+
+. FormIcon {
+  background-color: #f2f2f2e7;
+  border-radius: 1rem 0 0 1rem;
+  text-align: center;
+} 
