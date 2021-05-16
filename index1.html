@@ -17,14 +17,14 @@
 <body>
     <!-- en‑tête principal -->
     <header>
-        <ul>
-            <img href="#top" src="Reservia.svg" alt="logo Reservia" srcset="Reservia@3x.png">
-            <div class="nav">
+        <img href="#top" src="Reservia.svg" alt="logo Reservia" srcset="Reservia@3x.png">
+        <div>
+            <ul >
                 <li><a href="#hosting">Hébergements</a></li>
                 <li><a href="#activity">Activités</a></li>
-                <li><a href="#">S'inscrire</a></li>
-            </div>
-        </ul>         
+            </ul>   
+            <a href="#">S'inscrire</a>     
+        </div>
     </header>
 
     <!-- Le contenu de la page -->
@@ -32,48 +32,48 @@
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <h2>En plein centre-ville ou en pleine nature</h2>
         
-        <!-- recherche et filtre -->
-        <section class="Search">
-            <form>
-                <span class="SearchFormIcon">
-                    <i class="fas fa-map-marker-alt SearchFormIconIcon"></i>
+        <!-- recherche et filtre --> 
+        <form>
+            <section class="searchForm">
+                <span class="searchIcon">
+                    <i class="fas fa-map-marker-alt"></i>
                 </span>
-                <input class="SearchFormSearchInput" type="Search" placeholder="Marseille, France" size="1">
-                <button class="SearchFormSubmitInput">
-                    <span class="SearchFormSubmitInputText">Rechercher</span>
+                <input class="searchFormInput" type="search" placeholder="Marseille, France" size="1">
+                <button class="searchSubmitInput">
+                    <span class="searchInputText">Rechercher</span>
                     <i class=" fas fa-search"></i>
                 </button>
             </form>
-            <div class="SearchFilters">
-                <h2 class="SearchFiltersTitle">Filtres</h2>
-                <div class="SearchFilter">
-                    <div class="SearchFilterIcon">
-                        <i class="fas fa-money-bill-wave SearchFilterIconIcon"></i>
+            <div class="searchFilters">
+                <h2 class="searchFiltersTitle">Filtres</h2>
+                <div class="searchFilters">
+                    <div class="searchFilterIcon">
+                        <i class="fas fa-money-bill-wave searchFilterIconIcon"></i>
                     </div>
-                    <span class="SearchFilterTitle">Économique</span>
+                    <span class="searchFilterTitle">Économique</span>
                 </div>
-                <div class="SearchFilter">
-                    <div class="SearchFilterIcon">
-                        <i class="fas fa-child SearchFilterIconIcon"></i>
+                <div class="searchFilter">
+                    <div class="searchFilterIcon">
+                        <i class="fas fa-child searchFilterIconIcon"></i>
                     </div>
-                    <span class="SearchFilterTitle">Familial</span>
+                    <span class="searchFilterTitle">Familial</span>
                 </div>
-                <div class="SearchFilter">
-                    <div class="SearchFilterIcon">
-                        <i class="fas fa-heart SearchFilterIconIcon"></i>
+                <div class="searchFilter">
+                    <div class="searchFilterIcon">
+                        <i class="fas fa-heart searchFilterIconIcon"></i>
                     </div>
-                    <span class="SearchFilterTitle">Romantique</span>
+                    <span class="searchFilterTitle">Romantique</span>
                 </div>
-                <div class="SearchFilter">
-                    <div class="SearchFilterIcon">
-                        <i class="fas fa-dog SearchFilterIconIcon"></i>
+                <div class="searchFilter">
+                    <div class="searchFilterIcon">
+                        <i class="fas fa-dog searchFilterIconIcon"></i>
                     </div>
-                    <span class="SearchFilterTitle">Animaux autorisés</span>
+                    <span class="searchFilterTitle">Animaux autorisés</span>
                 </div>
             </div>
-            <div class="SearchResult">
-                <div class="SearchResultWrapicon"><i class="fas fa-info SearchResultWrapiconIcon"></i></div>
-                <p class="SearchResultText">Plus de 500 logements sont disponibles dans cette ville</p>
+            <div class="searchResult">
+                <div class="searchResultWrapicon"><i class="fas fa-info SearchResultWrapiconIcon"></i></div>
+                <p class="searchResultText">Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
         </section>
         

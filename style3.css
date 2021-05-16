@@ -1,0 +1,92 @@
+/* paramètres page police/marges */
+body{
+    font-family: "Raleway", sans-serif;
+    margin: 20px 20px;
+}
+
+/* paramètres header */
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+/* paramètres header/div */
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+/* paramètres header/ul */    
+header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 77%;
+}
+
+/* paramètres header/div/a */
+div a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* paramètres header/liens survolés */
+div li a:hover {
+    color: #0065FC;
+    border-top: 4px solid #0065FC;
+    padding: 25px;
+    font-weight: bold;
+  }
+
+/* paramètres main/form */
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    max-width: 25%;
+    margin-top: 3%;
+}
+
+/* paramètres form/icon */    
+.searchFormIcon {
+    background-color: #F2F2F2;
+    text-align: center;
+    border: 1px solid;
+    border-color: #F2F2F2;
+    border-radius: 1rem 0 0 1rem ;
+    padding: 1rem 1rem;
+
+} 
+/* paramètres form/input */    
+.searchInput {
+    border-top: #F2F2F2 1px solid;
+    border-right: none;
+    border-bottom: #F2F2F2 1px solid;
+    border-left: none;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1rem 0 1rem 0;
+    width: 50%;
+    margin: 0;
+} 
+
+.searchSubmitInput {
+    background-color: #0065FC;
+    text-align: center;
+    font-size: 1rem;
+    color: white;    
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    padding: 1rem 1rem;
+    margin: .5rem .5rem .5rem 0;   
+    cursor: pointer;
+  }
+
+.searchInput {
+      font-weight: bold;
+      font-size: 1rem;
+  }
