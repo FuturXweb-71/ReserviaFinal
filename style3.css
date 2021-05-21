@@ -41,7 +41,7 @@ div li a:hover {
     font-weight: bold;
   }
 
-/* paramètres main/form */
+/* paramètres form */
 form {
     display: flex;
     justify-content: space-between;
@@ -59,8 +59,8 @@ form {
     border-color: #F2F2F2;
     border-radius: 1rem 0 0 1rem ;
     padding: 1rem 1rem;
+}
 
-} 
 /* paramètres form/input */    
 .searchInput {
     border-top: #F2F2F2 1px solid;
@@ -90,3 +90,128 @@ form {
       font-weight: bold;
       font-size: 1rem;
   }
+
+/* paramètres filters */
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    max-width: 60%;
+    margin-top: 3%;
+}
+
+section .filtersIcon .fas {
+    background-color: #DEEBFF;
+    text-align: center;
+    border-radius: 100%;
+    padding: 1em 1em 1em 1em;
+    color: #0065FC;
+    margin-right: 0;
+}
+
+section .filtersTitle {
+    box-sizing: border-box;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+    border-right: #F2F2F2 1px solid;
+    border-radius: 0 2.5rem 2.5rem 0;
+    padding: 1em 1em 1em 1em;
+    text-align: left;
+    margin-left: 0;
+}
+
+/* paramètres info */
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    max-width: 31%;
+    margin-top: 3%;
+}
+
+.info .fas {
+    text-align: center;
+    border: #DEEBFF 1px solid;
+    border-radius: 100%;
+    padding: 1em 1.2em 1em 1.2em;
+    color: #0065FC;
+    margin-right: 0;
+}
+
+/* paramètres hosting/hébergement */
+article {
+    background-color: #F2F2F2;
+    max-width: 70%;
+    margin-top: 4%;
+}
+
+h2 {
+    padding: 2rem 0 2rem 2rem;
+}
+
+.card {
+    display: grid;
+    column-gap: 1rem;
+    grid-template-columns: 1fr 1fr;    
+    padding: 1.5rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: white;    
+    box-shadow: 0 0 16px #0000002e;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 100%;
+    width: 20%;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+.card {
+    margin: 15px;
+}
+
+.card img {
+    height: 8rem;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+figcaption {
+    margin: 0.25rem 0.75rem 0 0.75rem;
+}
+
+.grade [data-active=true] {
+    color: #0065FC;
+}
+
+.grade [data-active=false] {
+    color: #d9d9d9;
+}
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    justify-items: flex-start;
+    width: 100%;   
+}
+
+footer div a {
+    display: flex;
+    flex-direction: column;
+}
+
+footer h4 {
+    font-weight: bold;
+}

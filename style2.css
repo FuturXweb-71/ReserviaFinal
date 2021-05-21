@@ -111,6 +111,12 @@ form .searchForm {
   flex-wrap: wrap;
 }
 
+form .searchForm {
+  display: inline-flex;
+  max-width: 100%;
+  overflow: auto;
+}
+
 .searchFiltersTitle {
   margin: 0 2rem 1rem 2rem;
   display: flex;
