@@ -1,0 +1,46 @@
+/* paramètres page police/marges */
+body{
+    font-family: "Raleway", sans-serif;
+    margin: 20px 20px;
+}
+
+/* paramètres header */
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+/* paramètres header/div */
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 33%;
+}
+
+/* paramètres header/ul */    
+header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 77%;
+}
+
+/* paramètres header/div/a */
+header div a {
+    text-decoration: none;
+}
+
+/* paramètres header/div/span */
+header div span {
+    color: #0065FC;
+}
+
+/* paramètres header/liens survolés */
+div li a:hover {
+    color: #0065FC;
+    border-top: 4px solid #0065FC;
+    padding: 30px;
+    font-weight: bold;
+  }
