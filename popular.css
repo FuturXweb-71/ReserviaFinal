@@ -1,0 +1,59 @@
+/* paramètres page police/marges */
+body{
+    font-family: "Raleway", sans-serif;
+    margin: 20px 20px;
+}
+
+/* hosting popular */
+aside.containerPopular {
+    background-color: #F2F2F2;
+    border-radius: 1.5rem ;
+    width: 30%;
+    padding: 2rem;
+}
+
+figcaption {
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-left: 1rem;
+}
+
+.popularCard {
+    background-color: white;
+    margin-top: 2rem;
+    padding: 0.25rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 16px #0000002e;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height:33%    
+}
+
+.popularCard:hover {
+    transform: scale(1.02);
+}
+
+.popularImg {
+    height: 100%;
+    width: 30%;
+    object-fit: cover;
+}
+
+.popularDescriptive {
+    margin: 1rem 0 1rem 1rem;
+}
+
+.popularPrice {
+    font-weight: bold;
+}
+
+.popularGrade {
+    margin: 1rem 0 1rem 1rem;
+}
+.gradeIcon[data-active=true] {
+    color: #0065FC;
+}
+
+.gradeIcon[data-active=false] {
+    color: #F2F2F2;
+}
