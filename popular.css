@@ -14,19 +14,21 @@ aside.containerPopular {
 
 figcaption {
     font-weight: bold;
-    margin-left: 1rem;
-    margin-left: 1rem;
 }
 
-.popularCard {
+article.popularCard {
     background-color: white;
     margin-top: 2rem;
-    padding: 0.25rem;
+    padding: 0.3rem;
     border-radius: 1.5rem;
     box-shadow: 0 0 16px #0000002e;
     box-sizing: border-box;
     max-width: 100%;
-    max-height:33%    
+    max-height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: inherit;
 }
 
 .popularCard:hover {
@@ -34,9 +36,10 @@ figcaption {
 }
 
 .popularImg {
-    height: 100%;
-    width: 30%;
+    max-width: 50%;
     object-fit: cover;
+    object-position: left;
+    border-radius: 1.5rem;
 }
 
 .popularDescriptive {
@@ -50,6 +53,7 @@ figcaption {
 .popularGrade {
     margin: 1rem 0 1rem 1rem;
 }
+
 .gradeIcon[data-active=true] {
     color: #0065FC;
 }
