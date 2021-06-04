@@ -24,7 +24,7 @@ article.popularCard {
     box-shadow: 0 0 16px #0000002e;
     box-sizing: border-box;
     max-width: 100%;
-    max-height: 180px;
+    max-height: 170px;
     display: flex;
     justify-content: left;
 }
@@ -43,16 +43,11 @@ article.popularCard {
 }
 
 .popularDescriptive {
-    margin: 1rem 0 1rem 1rem;
+    margin: 0 0 1rem 1rem;
 }
 
-.popularPrice {
-    font-weight: bold;
-    margin: 1rem 0 1rem 1rem;
-}
-
-.popularGrade {
-    margin: 2rem 0 1rem 1rem;
+div.popularGrade {
+    margin: 0 1rem;
 }
 
 .gradeIcon[data-active=true] {
@@ -64,5 +59,7 @@ article.popularCard {
 }
 
 h3 {
-    margin: 2rem 0 1rem 1rem;
+    margin: 1rem 0 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
 }
