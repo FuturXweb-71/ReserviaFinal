@@ -7,19 +7,24 @@ body{
 /* paramètres section containerHosting */
 section.containerHosting {
     background-color: #F2F2F2;
+    border-radius: 1.5rem;
+    max-width: 66%;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+section.containerHosting div {   
     display: flex;
     flex-wrap: wrap;
-    border-radius: 1.5rem;
-    max-width: 70%;
+    border-radius: 1.5rem;    
     margin-top: 1%;
+    width: 100%;
 }
 
 /* paramètres article hostingCard */
 article.hostingCard {
     border-radius: 1.10rem;
     height: auto;
-    width: auto;
-    padding: .15rem;
+    width: 29%;
 }
 
 .hostingCard {
@@ -53,6 +58,7 @@ article.hostingCard {
 
 .hostingDescriptive {
     margin: 1rem 0 0 1rem;
+    font-weight: normal;
 }
 
 .hostingPrice {
@@ -61,7 +67,7 @@ article.hostingCard {
 
 .hostingGrade {
     margin: 1rem 0 0 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem 0 1rem 0;
 }
 
 .gradeIcon[data-active=true] {
@@ -75,4 +81,5 @@ article.hostingCard {
 p {
     font-weight: bold;
     margin-left: 2rem;
+    font-size: 1.2em;
 }
