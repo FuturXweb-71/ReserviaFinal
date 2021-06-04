@@ -8,7 +8,7 @@ body{
 aside.containerPopular {
     background-color: #F2F2F2;
     border-radius: 1.5rem ;
-    width: 30%;
+    width: 26%;
     padding: 2rem;
 }
 
@@ -26,9 +26,7 @@ article.popularCard {
     max-width: 100%;
     max-height: 180px;
     display: flex;
-    flex-direction: row;
     justify-content: left;
-    align-items: inherit;
 }
 
 .popularCard:hover {
@@ -38,7 +36,9 @@ article.popularCard {
 .popularImg {
     max-width: 50%;
     object-fit: cover;
-    object-position: left;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    padding-top: .15rem;
     border-radius: 1.5rem;
 }
 
@@ -48,10 +48,11 @@ article.popularCard {
 
 .popularPrice {
     font-weight: bold;
+    margin: 1rem 0 1rem 1rem;
 }
 
 .popularGrade {
-    margin: 1rem 0 1rem 1rem;
+    margin: 2rem 0 1rem 1rem;
 }
 
 .gradeIcon[data-active=true] {
@@ -60,4 +61,8 @@ article.popularCard {
 
 .gradeIcon[data-active=false] {
     color: #F2F2F2;
+}
+
+h3 {
+    margin: 2rem 0 1rem 1rem;
 }
