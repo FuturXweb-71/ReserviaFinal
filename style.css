@@ -135,14 +135,14 @@ span {
 
 main, section.aside { 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 /* paramètres section containerHosting */
 section.containerHosting {
     background-color: #F2F2F2;
     border-radius: 1.5rem;
-    max-width: 66%;
+    max-width: 60%;
     padding: 2rem 2rem 2rem 2rem;
 }
 
@@ -212,19 +212,18 @@ article.hostingCard {
     color: #F2F2F2;
 }
 
-p {
+h3 {
     font-weight: bold;
-    margin-left: 2rem;
+    margin-left: 1rem;
     font-size: 1.2em;
 }
 
 /* hosting popular */
-* hosting popular */
-aside.containerPopular {
+main aside {
     background-color: #F2F2F2;
-    border-radius: 1.5rem ;
-    width: 26%;
-    padding: 2rem;
+    border-radius: 1.5rem;
+    max-width: 30%;
+    padding: 2rem 2rem 2rem 2rem;
 }
 
 figcaption {
@@ -238,7 +237,7 @@ article.popularCard {
     border-radius: 1.5rem;
     box-shadow: 0 0 16px #0000002e;
     box-sizing: border-box;
-    max-width: 100%;
+    max-width: 90%;
     max-height: 170px;
     display: flex;
     justify-content: left;
@@ -275,13 +274,12 @@ div.popularGrade {
 
 p {
     margin: 1rem 0 1rem 1rem;
-    display: flex;
-    justify-content: space-between;
 }
 
 /* paramètres activity */
 section.containerActivity {
     max-width: 100%;
+    margin-top: 2%;
 }
 
 section.containerActivity div {
@@ -357,16 +355,18 @@ section.containerActivity div {
 }
 
 h4 {
-    margin-left: 3%;;
+    margin-left: 3%;
+    font-weight: bold;
 }
   
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #F2F2F2;
     justify-items: flex-start;
     width: 100%;
-    margin-top: 4%;
+    margin-top: 3%;
+    padding: 2rem 0 2rem 0;
 }
 
 footer div h4 {
