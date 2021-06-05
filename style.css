@@ -168,9 +168,7 @@ article.hostingCard {
     box-shadow: 0 0 16px #0000002e;
     box-sizing: content-box;
     width: 100%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 2rem;
+    margin: 1rem;
 }
 
 .hostingCard:hover {
@@ -223,7 +221,7 @@ main aside {
     background-color: #F2F2F2;
     border-radius: 1.5rem;
     max-width: 30%;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 2rem 2rem;
 }
 
 figcaption {
@@ -233,7 +231,7 @@ figcaption {
 article.popularCard {
     background-color: white;
     margin-top: 2rem;
-    padding: 0.3rem;
+    padding: 0.4rem;
     border-radius: 1.5rem;
     box-shadow: 0 0 16px #0000002e;
     box-sizing: border-box;
@@ -248,12 +246,10 @@ article.popularCard {
 }
 
 .popularImg {
-    max-width: 50%;
     object-fit: cover;
-    width: 100%;
-    border-radius: 1rem 1rem 0 0;
+    width: 54%;
+    border-radius: 1rem 0 0 1rem;
     padding-top: .15rem;
-    border-radius: 1.5rem;
 }
 
 .popularDescriptive {
@@ -273,7 +269,7 @@ div.popularGrade {
 }
 
 p {
-    margin: 1rem 0 1rem 1rem;
+    margin: 1rem 1rem;
 }
 
 /* paramètres activity */
