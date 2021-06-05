@@ -133,6 +133,11 @@ span {
     padding-right: 2rem;
 }
 
+main, section.aside { 
+    display: flex;
+    justify-content: space-around;
+}
+
 /* paramètres section containerHosting */
 section.containerHosting {
     background-color: #F2F2F2;
@@ -268,7 +273,7 @@ div.popularGrade {
     color: #F2F2F2;
 }
 
-h3 {
+p {
     margin: 1rem 0 1rem 1rem;
     display: flex;
     justify-content: space-between;
