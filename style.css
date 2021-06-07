@@ -27,6 +27,10 @@ header ul {
     width: 77%;
 }
 
+header span {
+    font-weight: bold;
+}
+
 /* paramètres header/div/a */
 header div a {
     text-decoration: none;
@@ -231,6 +235,7 @@ main aside {
 .popularTitle {
     display: flex;
     justify-content: space-between;
+    padding-bottom: .2rem;
 }
 
 figcaption {
@@ -264,6 +269,10 @@ article.popularCard {
 
 .popularDescriptive {
     margin: 0 0 1rem 1rem;
+}
+
+.popularPrice {
+    font-weight: bold;
 }
 
 div.popularGrade1, .popularGrade3  {
