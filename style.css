@@ -1,6 +1,6 @@
 /* paramètres page police/marges */
 body{
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", "sans-serif";
     margin: 20px 20px;
 }
 
@@ -30,6 +30,7 @@ header ul {
 /* paramètres header/div/a */
 header div a {
     text-decoration: none;
+    color: black;
 }
 
 /* paramètres header/div/span */
@@ -177,7 +178,6 @@ article.hostingCard {
 
 .hostingCaption {
     font-weight: bold;
-    margin-left: 1rem;
 }
   
 .hostingImg {
@@ -236,7 +236,7 @@ article.popularCard {
     box-shadow: 0 0 16px #0000002e;
     box-sizing: border-box;
     max-width: 90%;
-    max-height: 170px;
+    max-height: 200px;
     display: flex;
     justify-content: left;
 }
@@ -247,7 +247,7 @@ article.popularCard {
 
 .popularImg {
     object-fit: cover;
-    width: 54%;
+    width: 50%;
     border-radius: 1rem 0 0 1rem;
     padding-top: .15rem;
 }
@@ -256,8 +256,12 @@ article.popularCard {
     margin: 0 0 1rem 1rem;
 }
 
-div.popularGrade {
-    margin: 0 1rem;
+div.popularGrade1, .popularGrade3  {
+    margin: 4.5rem 1rem;
+}
+
+div.popularGrade2  {
+    margin: 3rem 1rem;
 }
 
 .gradeIcon[data-active=true] {
@@ -296,42 +300,42 @@ section.containerActivity div {
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     height: 440px;
-    width: 400px;
+    width: 420px;
 }
 
 .activityCard2 {    
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     height: 190px;
-    width: 400px;
+    width: 420px;
 }
 
 .activityCard3 {
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     height: 190px;
-    width: 400px;
+    width: 420px;
 }
 
 .activityCard4 {
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     height: 440px;
-    width: 400px;
+    width: 420px;
 }
 
 .activityCard5 {
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     height: 190px;
-    width: 400px;
+    width: 420px;
 }
 
 .activityCard6 {    
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     height: 190px;
-    width: 400px;    
+    width: 420px;    
 }
 
 .activityImg1, .activityImg4 {
@@ -352,24 +356,27 @@ section.containerActivity div {
 
 h4 {
     margin-left: 3%;
-    font-weight: bold;
 }
-  
+
 footer {
-    display: flex;
-    justify-content: space-evenly;
     background-color: #F2F2F2;
-    justify-items: flex-start;
     width: 100%;
-    margin-top: 3%;
-    padding: 2rem 0 2rem 0;
+    margin-top: 2%;
 }
 
-footer div h4 {
-    font-weight: bold;
-}
-
-footer div h5 {
+footer div {
     display: flex;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer div div {
     flex-direction: column;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    line-height: 2;
 }
