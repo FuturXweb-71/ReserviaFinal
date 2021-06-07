@@ -379,7 +379,7 @@ footer {
 
 footer div {
     display: flex;
-    margin-right: 17%;
+    margin-right: auto;
     margin-bottom: auto;
     margin-left: 2rem;
     padding-top: 1rem;
