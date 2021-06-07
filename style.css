@@ -98,7 +98,7 @@ form .searchFormSubmitInputText {
 /* paramètres section */
 .container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 4rem 4rem 0 0;
     max-width: 64%;
 }
