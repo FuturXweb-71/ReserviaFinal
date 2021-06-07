@@ -100,7 +100,7 @@ form .searchFormSubmitInputText {
     display: flex;
     justify-content: space-evenly;
     margin: 4rem 4rem 0 0;
-    max-width: 70%;
+    max-width: 64%;
 }
 
 /* paramètres filters */
