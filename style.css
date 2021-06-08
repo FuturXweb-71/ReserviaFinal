@@ -317,13 +317,17 @@ section.containerActivity div {
     display: flex;
     flex-direction: column;
     align-content: space-between;
-}
+}   
 
 .activityCard1 {    
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     height: 440px;
     width: 420px;
+}
+
+.activityCard1:hover {
+    transform: scale(1.02);
 }
 
 .activityCard2 {    
@@ -333,11 +337,19 @@ section.containerActivity div {
     width: 420px;
 }
 
+.activityCard2:hover {
+    transform: scale(1.02);
+}
+
 .activityCard3 {
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     height: 190px;
     width: 420px;
+}
+
+.activityCard3:hover {
+    transform: scale(1.02);
 }
 
 .activityCard4 {
@@ -347,6 +359,10 @@ section.containerActivity div {
     width: 420px;
 }
 
+.activityCard4:hover {
+    transform: scale(1.02);
+}
+
 .activityCard5 {
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
@@ -354,11 +370,19 @@ section.containerActivity div {
     width: 420px;
 }
 
+.activityCard5:hover {
+    transform: scale(1.02);
+}
+
 .activityCard6 {    
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     height: 190px;
     width: 420px;    
+}
+
+.activityCard6:hover {
+    transform: scale(1.02);
 }
 
 .activityImg1, .activityImg4 {
