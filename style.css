@@ -21,7 +21,7 @@ header div {
     width: 33%;
 }
 
-/* paramètres header/ul */    
+/* paramètres header/ul */
 header ul {
     display: flex;
     justify-content: space-around;
@@ -61,7 +61,7 @@ form {
     margin-top: 3%;
 }
 
-/* paramètres search/form/icon */    
+/* paramètres search/form/icon */
 form .searchFormIcon {
     background-color: #F2F2F2;
     text-align: center;
@@ -71,7 +71,7 @@ form .searchFormIcon {
     padding: 1rem 1rem;
 }
 
-/* paramètres search/form/input */    
+/* paramètres search/form/input */
 form .searchFormInput {
     border-top: #F2F2F2 1px solid;
     border-right: none;
@@ -89,11 +89,11 @@ form .searchFormSubmit {
     background-color: #0065FC;
     text-align: center;
     font-size: 1rem;
-    color: white;    
+    color: white;
     border: none;
     border-radius: 0 1rem 1rem 0;
     padding: 1rem 1rem;
-    margin: .5rem .5rem .5rem 0;   
+    margin: .5rem .5rem .5rem 0;
   }
 
 form .searchFormSubmitInputText {
@@ -107,6 +107,7 @@ form .searchFormSubmitInputText {
     justify-content: space-between;
     margin: 4rem 4rem 0 0;
     max-width: 64%;
+    align-items: baseline;
 }
 
 /* paramètres filters */
@@ -140,7 +141,7 @@ span {
     padding-right: 2rem;
 }
 
-main, section.aside { 
+main, section.aside {
     display: flex;
     justify-content: space-between;
 }
@@ -157,10 +158,10 @@ section.containerHosting {
     margin-left: 1rem;
 }
 
-section.containerHosting div {   
+section.containerHosting div {
     display: flex;
     flex-wrap: wrap;
-    border-radius: 1.5rem;    
+    border-radius: 1.5rem;
     margin-top: 1%;
     width: 100%;
 }
@@ -174,11 +175,9 @@ article.hostingCard {
 
 .hostingCard {
     background-color: white;
-    padding: 0.385rem;
-    border-radius: 1.25rem;
+    padding: 0.385rem;    
     box-shadow: 0 0 16px #0000002e;
     box-sizing: content-box;
-    width: 100%;
     margin: 1rem;
 }
 
@@ -186,8 +185,7 @@ article.hostingCard {
     transform: scale(1.02);
 }
 
-.hostingCaption {
-    font-weight: bold;
+.hostingCaption { 
     margin-left: 1rem;
 }
   
@@ -200,8 +198,7 @@ article.hostingCard {
 }
 
 .hostingDescriptive {
-    margin: 1rem 0 0 1rem;
-    font-weight: normal;
+    margin: 1rem 0 0 1rem; 
 }
 
 .hostingPrice {
@@ -221,11 +218,6 @@ article.hostingCard {
     color: #F2F2F2;
 }
 
-h3 {
-    font-weight: bold;
-    font-size: 1.2em;
-}
-
 /* hosting popular */
 main aside {
     background-color: #F2F2F2;
@@ -241,7 +233,6 @@ main aside {
 }
 
 figcaption {
-    font-weight: bold;
     margin-left: 1rem;
 }
 
@@ -255,7 +246,6 @@ article.popularCard {
     max-width: 90%;
     max-height: 200px;
     display: flex;
-    justify-content: left;
 }
 
 .popularCard:hover {
@@ -285,10 +275,6 @@ div.popularGrade2  {
     margin: 3rem 1rem;
 }
 
-p {
-    margin: 1rem 1rem;
-}
-
 /* paramètres activity */
 section.containerActivity {
     max-width: 100%;
@@ -308,12 +294,11 @@ section.containerActivity div {
 }
 
 .activityCard {
-    display: flex;
     flex-direction: column;
     align-content: space-between;
-}   
+}
 
-.activityCard1 {    
+.activityCard1 {
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     height: 440px;
@@ -324,7 +309,7 @@ section.containerActivity div {
     transform: scale(1.02);
 }
 
-.activityCard2 {    
+.activityCard2 {
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     height: 190px;
@@ -368,7 +353,7 @@ section.containerActivity div {
     transform: scale(1.02);
 }
 
-.activityCard6 {    
+.activityCard6 {
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     height: 190px;
