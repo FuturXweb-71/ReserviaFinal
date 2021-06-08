@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
 /* paramètres page police/marges */
 body{
     font-family: "Raleway", "sans-serif";
@@ -194,7 +196,7 @@ article.hostingCard {
     object-fit: cover;
     width: 100%;
     border-radius: 1rem 1rem 0 0;
-    padding-top: .15rem;
+    padding-top: .1rem;
 }
 
 .hostingDescriptive {
@@ -262,9 +264,9 @@ article.popularCard {
 
 .popularImg {
     object-fit: cover;
-    width: 50%;
+    width: 48%;
     border-radius: 1rem 0 0 1rem;
-    padding-top: .15rem;
+padding-left: .1rem;
 }
 
 .popularDescriptive {
@@ -281,14 +283,6 @@ div.popularGrade1, .popularGrade3  {
 
 div.popularGrade2  {
     margin: 3rem 1rem;
-}
-
-.gradeIcon[data-active=true] {
-    color: #0065FC;
-}
-
-.gradeIcon[data-active=false] {
-    color: #F2F2F2;
 }
 
 p {
