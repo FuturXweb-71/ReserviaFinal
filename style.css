@@ -242,8 +242,6 @@ article.popularCard {
     padding: 0.4rem;
     border-radius: 1.5rem;
     box-shadow: 0 0 16px #0000002e;
-    box-sizing: border-box;
-    max-width: 90%;
     max-height: 200px;
     display: flex;
 }
@@ -256,7 +254,7 @@ article.popularCard {
     object-fit: cover;
     width: 48%;
     border-radius: 1rem 0 0 1rem;
-padding-left: .1rem;
+    padding-left: .1rem;
 }
 
 .popularDescriptive {
