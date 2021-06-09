@@ -16,7 +16,7 @@ header {
 /* paramètres header/div */
 header div {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     width: 33%;
 }
@@ -51,10 +51,24 @@ div li a:hover {
     border-top: 3px solid #0065FC;
     padding-top: 20px;
     font-weight: bold;
-  }
+}
 
 @media all and (max-width: 1280px) {
-      header {
-          width: auto;
-      }
+    #header {
+        width: 100%;
+    }
+
+    div ul {
+        flex-direction: column;
+        padding-top: 6rem;
+        padding-left: 0;
+    }
+
+    li, a{
+        line-height: 3rem;
+    }
+
+    ul a:hover {
+        border-bottom: 0;
+    }
 }

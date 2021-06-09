@@ -14,7 +14,7 @@ header {
 /* paramètres header/div */
 header div {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     width: 33%;
 }
@@ -51,7 +51,7 @@ div li a:hover {
     font-weight: bold;
   }
 
-  /* paramètres form */
+/* paramètres form */
 form {
     display: flex;
     align-items: center;
