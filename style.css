@@ -217,6 +217,12 @@ article.hostingCard {
     color: #F2F2F2;
 }
 
+a.showMore {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
 /* hosting popular */
 main aside {
     background-color: #F2F2F2;
