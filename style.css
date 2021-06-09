@@ -38,8 +38,9 @@ header div a {
 }
 
 /* paramètres header/div/span */
-header div span {
+header div a.register {
     color: #0065FC;
+    font-weight: bold;
 }
 
 /* paramètres header/liens survolés */

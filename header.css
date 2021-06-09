@@ -6,13 +6,6 @@ body {
     margin: 2% 2%;
 }
 
-@media only screen and (max-width: 1280px) and (min-width: 600px) {
-    header {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 /* paramètres header */
 header {
     display: flex;
@@ -46,9 +39,10 @@ header div a {
     color: black;
 }
 
-/* paramètres header/div/span */
-header div span {
+/* paramètres header/div/register */
+header div a.register {
     color: #0065FC;
+    font-weight: bold;
 }
 
 /* paramètres header/liens survolés */
@@ -58,3 +52,9 @@ div li a:hover {
     padding-top: 20px;
     font-weight: bold;
   }
+
+  @media all and (max-width: 1280px) {
+      header {
+          width: auto;
+      }
+}
