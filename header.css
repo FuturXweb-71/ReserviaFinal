@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
+/* paramètres page police/marges */
+body {
+    font-family: "Raleway", "sans-serif";
+    margin: 2% 2%;
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* paramètres header */
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+/* paramètres header/div */
+header div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+/* paramètres header/ul */
+header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 100%;
+}
+
+header span {
+    font-weight: bold;
+}
+
+/* paramètres header/div/a */
+header div a {
+    text-decoration: none;
+    color: black;
+}
+
+/* paramètres header/div/span */
+header div span {
+    color: #0065FC;
+}
+
+/* paramètres header/liens survolés */
+div li a:hover {
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+    padding-top: 20px;
+    font-weight: bold;
+  }
