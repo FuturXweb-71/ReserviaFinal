@@ -153,10 +153,6 @@ section.containerHosting {
     padding: 2rem;
 }
 
-.hostingTitle {
-    margin-left: 1rem;
-}
-
 section.containerHosting div {
     display: flex;
     flex-wrap: wrap;
@@ -217,12 +213,11 @@ article.hostingCard {
     color: #F2F2F2;
 }
 
-section div a.showMore {
+a.showMore {
     font-weight: bold;
     color: black;
     text-decoration: none;
     margin-top: 1rem;
-    margin-left: 1rem;
 }
 
 /* hosting popular */
