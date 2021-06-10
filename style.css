@@ -381,7 +381,7 @@ section.containerActivity div {
     border-radius: 1rem 1rem 0 0;
 }
 
-h4 {
+div h4 {
     margin-left: 6%;
 }
 
@@ -396,8 +396,7 @@ footer div {
     margin-bottom: auto;
     margin-left: 2rem;
     padding-top: 1rem;
-    padding-bottom: 1rem;
-    
+    padding-bottom: 1rem;    
 }
 
 footer div div {
@@ -410,9 +409,19 @@ footer a {
     line-height: 2;
 }
 
+footer #title {
+    margin-left: 0;
+}
+
 footer #return {
     font-size: 2rem;
     margin: auto 4rem auto 0;
     box-shadow: 0 0 20px #0000002e;
-    border-radius: 1rem;
+    border-radius: 100%;
+    width: 4rem;
+    text-align: center;
+}
+
+#return:hover {
+    transform: scale(1.2);
 }
