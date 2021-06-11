@@ -22,11 +22,10 @@ header div {
 }
 
 /* paramètres header/ul */
-header ul {
+header div ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    width: 100%;
 }
 
 header span {
@@ -46,9 +45,9 @@ header div a.register {
 }
 
 /* paramètres header/liens survolés */
-div li a:hover {
+header div ul li a:hover {
     color: #0065FC;
-    border-top: 3px solid #0065FC;
-    padding-top: 20px;
+    border-bottom: 3px solid #0065FC;
+    padding-bottom: 10px;
     font-weight: bold;
 }

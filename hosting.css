@@ -1,0 +1,104 @@
+/* paramètres page police/marges */
+body {
+    font-family: "Raleway", "sans-serif";
+    margin: 2% 2%;
+}
+
+/* paramètres section containerHosting */
+section.containerHosting {
+    background-color: #F2F2F2;
+    border-radius: 1.5rem;
+    max-width: 60%;
+    padding: 2rem;
+}
+
+section h3.title {
+    padding-left: 1rem;
+} 
+
+section.containerHosting div {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1.5rem;
+    margin-top: 1%;
+    width: 100%;
+}
+
+/* paramètres article hostingCard */
+article.hostingCard {
+    border-radius: 1.10rem;
+    height: auto;
+    width: 29%;
+}
+
+section div article.hostingCard {
+    background-color: white;
+    padding: 0.385rem;    
+    box-shadow: 0 0 16px #0000002e;
+    box-sizing: content-box;
+    margin: 1rem;
+}
+
+.hostingCard:hover {
+    transform: scale(1.02);
+}
+
+.hostingCaption { 
+    margin-left: 1rem;
+}
+  
+.hostingImg {
+    height: 9rem;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    padding-top: .1rem;
+}
+
+.hostingDescriptive {
+    margin: 1rem 0 0 1rem; 
+}
+
+.hostingPrice {
+    font-weight: bold;
+}
+
+.hostingGrade {
+    margin: 1rem 0 0 1rem;
+    padding: 1rem 0 1rem 0;
+}
+
+.gradeIcon[data-active=true] {
+    color: #0065FC;
+}
+
+.gradeIcon[data-active=false] {
+    color: #F2F2F2;
+}
+
+section a.showMore {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+@media all and (max-width: 1024px) {
+    section.containerHosting {
+        max-width: 100%;
+        padding: 2rem 0 2rem 0rem;    
+    }
+
+    article.hostingCard {
+        width: 100%;
+    }
+
+    section_h3 { 
+        margin-left: 1rem;
+    }
+
+    section a.showMore {
+        padding-left: 1rem;
+    } 
+}
