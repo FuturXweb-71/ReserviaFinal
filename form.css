@@ -1,0 +1,130 @@
+* paramètres page police/marges */
+body {
+    font-family: "Raleway", "sans-serif";
+    margin: 2% 2%;
+}
+
+/* paramètres form */
+form {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    max-width: 30%;
+    margin-top: 3%;
+}
+
+/* paramètres search/form/icon */
+form .searchFormIcon {
+    background-color: #F2F2F2;
+    text-align: center;
+    border: 1px solid;
+    border-color: #F2F2F2;
+    border-radius: 1rem 0 0 1rem ;
+    padding: 1rem 1rem;
+}
+
+/* paramètres search/form/input */
+form .searchFormInput {
+    border-top: #F2F2F2 1px solid;
+    border-right: none;
+    border-bottom: #F2F2F2 1px solid;
+    border-left: none;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1rem 0 1rem 0;
+    width: 50%;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+form .searchFormSubmit {
+    background-color: #0065FC;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    padding: 1rem 1rem;
+    margin: .5rem .5rem .5rem 0;
+  }
+
+form .searchFormSubmitInputText {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+@media all and (max-width: 1024px) {
+    form {
+        max-width: 100%;
+    }
+
+    form .searchFormSubmitInputText {
+        display: none;
+    }
+
+    form .searchFormInput {
+        width: 100%;
+    }
+
+}
+
+/* paramètres section */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 4rem 0 0;
+    max-width: 64%;
+    align-items: baseline;
+}
+
+/* paramètres filters */
+.filters {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #d9d9d9;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+
+.filters:hover {
+    background-color: #f3f8ff;
+    transform: scale(1.015);
+}
+
+/* paramètres icons */
+section .icons {
+    background-color: #DEEBFF;
+    text-align: center;
+    border-radius: 100%;
+    width: 1.2rem;
+    padding: 1em 1em 1em 1em;
+    color: #0065FC;
+}
+
+span {
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+
+@media all and (max-width: 1024px) {
+    h3 {
+        padding-top: 2%;
+    }
+    
+    .container {
+        flex-wrap: wrap;
+        margin: 1rem 0 0 0;
+        max-width: 85%;
+    }
+
+    .filters {
+        margin-bottom: 1rem;
+    }
+
+    span {
+        padding-left: .6rem;
+        padding-right: .6rem;
+    }
+}

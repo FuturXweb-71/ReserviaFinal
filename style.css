@@ -100,7 +100,7 @@ form .searchFormSubmitInputText {
     font-size: 1rem;
 }
 
-@media all and (max-widht) {
+@media all and (max-widht: 1024px) {
     
 }
 
