@@ -124,7 +124,21 @@ form .searchFormSubmitInputIcon {
     form .searchFormSubmit {
         border-radius: 1rem 1rem;
     }
+}
 
+/* search/form Iphone portrait */
+@media all and (max-width: 768px) {
+    form {
+        max-width: 100%;
+    }
+
+    form .searchFormSubmitInputText {
+        display: none;
+    }
+
+    form .searchFormInput {
+        width: 100%;
+    }
 }
 
 /* paramètres section */
@@ -227,6 +241,28 @@ span {
         flex-wrap: wrap;
         margin: 1rem 0 0 0;
         max-width: 80%;
+    }
+
+    .filters {
+        margin-bottom: 1rem;
+    }
+
+    span {
+        padding-left: .6rem;
+        padding-right: .6rem;
+    }
+}
+
+/* search/filters Iphone portrait */
+@media all and (max-width: 768px) {
+    h3 {
+        padding-top: 2%;
+    }
+    
+    .container {
+        flex-wrap: wrap;
+        margin: 1rem 0 0 0;
+        max-width: 85%;
     }
 
     .filters {
@@ -358,6 +394,27 @@ section a.showMore {
     } 
 }
 
+/* hosting popular Iphone 8 portrait */
+@media all and (max-width: 768px) {
+    section.containerHosting {
+        max-width: 100%;
+        padding: 2rem 0 2rem 0rem;    
+    }
+
+    article.hostingCard {
+        width: 100%;
+    }
+
+    section_h3 { 
+        margin-left: 1rem;
+    }
+
+    section a.showMore {
+        padding-left: 1rem;
+    } 
+}
+
+
 /* hosting popular */
 aside {
     background-color: #F2F2F2;
@@ -432,6 +489,31 @@ div.popularGrade2  {
 
     div.popularGrade1, .popularGrade3  {
         margin: 1rem 1rem;
+    }
+    
+    div.popularGrade2  {
+        margin: 1rem 1rem;
+    }
+}
+
+/* popular Iphone 8 portrait */
+@media all and (max-width: 768px) {
+    main aside {
+        max-width: 100%;
+        padding: 1rem;
+    }
+
+    aside article.popularCard {
+        max-height: 150px;
+        display: flex;
+    }
+
+    .popularImg {
+        width: 40%;
+    }
+
+    div.popularGrade1, .popularGrade3  {
+        margin: 2rem 1rem;
     }
     
     div.popularGrade2  {
@@ -589,6 +671,28 @@ div h4 {
     }
 }
 
+/* activity Iphone 8 portrait */
+@media all and (max-width: 768px) {
+    .activityTitle {
+        margin: 1rem;
+    }
+
+    .activityCard1, .activityCard2, .activityCard3, .activityCard4, .activityCard5, .activityCard6 {
+        height: 190px;
+        width: 100%;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .activityImg1, .activityImg2, .activityImg3, .activityImg4, .activityImg5, .activityImg6 {
+        height: 9rem;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        border-radius: 1rem 1rem 0 0;
+    }
+}
+
 /* paramètres footer */
 footer {
     display: flex;
@@ -637,6 +741,23 @@ footer #title {
         flex-direction: column;
          
     footer div {
+        color: black;
+        line-height: 2;
+    }
+    
+    footer #title {
+        margin-left: 0;
+    }
+}
+
+/* footer Iphone 8 portrait */
+@media all and (max-widht: 768px) {    
+    footer {
+        display: none;
+    }
+
+    footer div {
+        flex-direction: column {
         color: black;
         line-height: 2;
     }
