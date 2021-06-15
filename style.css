@@ -103,9 +103,10 @@ form .searchFormSubmitInputIcon {
     display: none;
 }
 
+/* search/form tablette paysage */
 @media all and (max-width: 1024px) {
     form {
-        max-width: 100%;
+        max-width: 50%;
     }
 
     form .searchFormSubmitInputText {
@@ -216,15 +217,16 @@ span {
     padding-right: 2rem;
 }
 
+/* search/filters tablette paysage */
 @media all and (max-width: 1024px) {
     h3 {
-        padding-top: 2%;
+        padding-top: 1%;
     }
     
     .container {
         flex-wrap: wrap;
         margin: 1rem 0 0 0;
-        max-width: 85%;
+        max-width: 80%;
     }
 
     .filters {
@@ -239,7 +241,6 @@ span {
 
 div.icon {
     margin-top: 0;
-
 }
 
 main, section.aside {
@@ -327,19 +328,25 @@ section a.showMore {
     margin-left: 1rem;
 }
 
-@media all and (max-width: 1024px) {
-    main {
-        display: flex;
-    }
-    
+/* containerHosting tablette paysage */
+@media all and (max-width: 1024px) {    
     section.containerHosting {
-        max-width: 100%;
+        max-width: 62%;
         margin-right: 1rem;
         padding: 1rem 0 2rem 0rem;   
     }
 
+    section div article.hostingCard {
+        background-color: white;
+        padding: 0.385rem;    
+        box-shadow: 0 0 16px #0000002e;
+        box-sizing: content-box;
+        margin: 1rem;
+    }
+
     article.hostingCard {
-        width: 62%;
+        width: 42%;
+        justify-content: space-between;
     }
 
     section_h3 { 
@@ -356,7 +363,7 @@ aside {
     background-color: #F2F2F2;
     border-radius: 1.5rem;
     max-width: 32%;
-    padding: 1rem 2rem 2rem 2rem;
+    padding: 0rem 2rem 2rem 2rem;
 }
 
 .popularTitle {
@@ -406,6 +413,7 @@ div.popularGrade2  {
     margin: 4rem 1rem;
 }
 
+/* hosting popular tablette paysage */
 @media all and (max-width: 1024px) {
     main aside {
         flex-direction: column;
@@ -423,13 +431,14 @@ div.popularGrade2  {
     }
 
     div.popularGrade1, .popularGrade3  {
-        margin: 2rem 1rem;
+        margin: 1rem 1rem;
     }
     
     div.popularGrade2  {
         margin: 1rem 1rem;
     }
 }
+
 /* paramètres activity */
 section.containerActivity {    
     margin-top: 2%;
@@ -451,8 +460,6 @@ section.containerActivity div {
 .activityCard {
     flex-direction: column;
     align-content: space-between;
-    
-    
 }
 
 .activityCard1 {
@@ -541,27 +548,51 @@ div h4 {
     margin-left: 4%;
 }
 
+/* activity tablette paysage */
 @media all and (max-width: 1024px) {
     .activityTitle {
         margin: 1rem;
     }
 
-    .activityCard1, .activityCard2, .activityCard3, .activityCard4, .activityCard5, .activityCard6 {
-        height: 190px;
-        width: 100%;
-        margin-top: 2rem;
-        padding-bottom: 1rem;
+    .activityCard1, .activityCard4 {        
+        width: 234px;
+        height: 400px;
     }
 
-    .activityImg1, .activityImg2, .activityImg3, .activityImg4, .activityImg5, .activityImg6 {
+    .activityCard2, .activityCard3, .activityCard5, .activityCard6 {        
+        width: 234px;
+        height: 193px;        
+    }
+
+    .activityCard2 .activityCard5, {        
+        margin-bottom: 2%;
+    }
+
+    .activityCard3, .activityCard6, {        
+        margin-top: 3%;
+     }
+
+    .activityImg1, .activityImg4, {
         height: 9rem;
+        object-fit: cover;
+        object-position: center;
+        width: 232px;
+        border-radius: 1rem 1rem 0 0;
+    }
+    
+    .activityImg2, .activityImg3, .activityImg5, .activityImg6 {
+        height: 8.3rem;
         object-fit: cover;
         object-position: center;
         width: 100%;
         border-radius: 1rem 1rem 0 0;
     }
+    div h4 {
+        margin-left: 3%;
+    }
 }
 
+/* paramètres footer */
 footer {
     display: flex;
     background-color: #F2F2F2;
@@ -575,7 +606,7 @@ footer div {
     margin-bottom: auto;
     margin-left: 2rem;
     padding-top: 1rem;
-    padding-bottom: 2rem;    
+    padding-bottom: 2rem;
 }
 
 footer a {
@@ -603,7 +634,8 @@ footer #title {
     transform: scale(1.2);
 }
 
-@media all and (max-widht: 1024px) {    
+/* footer tablette paysage */
+@media all and (max-widht: 1024px) {
     footer {
         flex-direction: column;
          
