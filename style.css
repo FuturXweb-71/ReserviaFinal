@@ -166,7 +166,11 @@ span {
     padding-right: 2rem;
 }
 
-* paramètres section */
+div.icon {
+    margin: 2rem 0 3rem 0;
+}
+
+/* paramètres section container */
 .container {
     display: flex;
     justify-content: space-between;
