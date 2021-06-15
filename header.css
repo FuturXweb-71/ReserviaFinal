@@ -51,3 +51,16 @@ header div ul li a:hover {
     padding-bottom: 10px;
     font-weight: bold;
 }
+
+@media all and (max-width: 1024px) {
+    header img {
+        height: 60px;
+        width: 33%;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}

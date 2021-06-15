@@ -64,17 +64,16 @@ form {
 form .searchFormIcon {
     background-color: #F2F2F2;
     text-align: center;
-    border: 1px solid;
-    border-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
     border-radius: 1rem 0 0 1rem ;
     padding: 1rem 1rem;
 }
 
 /* paramètres search/form/input */
 form .searchFormInput {
-    border-top: #F2F2F2 1px solid;
+    border-top: 1px solid #F2F2F2 ;
     border-right: none;
-    border-bottom: #F2F2F2 1px solid;
+    border-bottom: 1px solid #F2F2F2 ;
     border-left: none;
     text-align: center;
     box-sizing: border-box;
@@ -89,10 +88,10 @@ form .searchFormSubmit {
     text-align: center;
     font-size: 1rem;
     color: white;
-    border: none;
+    border: 1px solid #0065FC;
     border-radius: 0 1rem 1rem 0;
     padding: 1rem 1rem;
-    margin: .5rem .5rem .5rem 0;
+    
   }
 
 form .searchFormSubmitInputText {
@@ -100,15 +99,38 @@ form .searchFormSubmitInputText {
     font-size: 1rem;
 }
 
-@media all and (max-widht: 1024px) {
-    
+form .searchFormSubmitInputIcon {
+    display: none;
+}
+
+@media all and (max-width: 1024px) {
+    form {
+        max-width: 100%;
+    }
+
+    form .searchFormSubmitInputText {
+        display: none;
+    }
+
+    form .searchFormInput {
+        width: 66%;
+    }
+
+    form .searchFormSubmitInputIcon {
+        display: initial;
+    }
+
+    form .searchFormSubmit {
+        border-radius: 1rem 1rem;
+    }
+
 }
 
 /* paramètres section */
 .container {
     display: flex;
     justify-content: space-between;
-    margin: 4rem 4rem 0 0;
+    margin: 3rem 0 2rem 0;
     max-width: 64%;
     align-items: baseline;
 }
@@ -144,6 +166,72 @@ span {
     padding-right: 2rem;
 }
 
+* paramètres section */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 4rem 0 0;
+    max-width: 58%;
+    align-items: baseline;
+}
+
+/* paramètres filters */
+.filters {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #d9d9d9;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+
+.filters:hover {
+    background-color: #f3f8ff;
+    transform: scale(1.015);
+}
+
+/* paramètres icons */
+section .icons {
+    background-color: #DEEBFF;
+    text-align: center;
+    border-radius: 100%;
+    width: 1.2rem;
+    padding: 1em 1em 1em 1em;
+    color: #0065FC;
+}
+
+span {
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+
+@media all and (max-width: 1024px) {
+    h3 {
+        padding-top: 2%;
+    }
+    
+    .container {
+        flex-wrap: wrap;
+        margin: 1rem 0 0 0;
+        max-width: 85%;
+    }
+
+    .filters {
+        margin-bottom: 1rem;
+    }
+
+    span {
+        padding-left: .6rem;
+        padding-right: .6rem;
+    }
+}
+
+div.icon {
+    margin-top: 0;
+
+}
+
 main, section.aside {
     display: flex;
     justify-content: space-between;
@@ -154,8 +242,12 @@ section.containerHosting {
     background-color: #F2F2F2;
     border-radius: 1.5rem;
     max-width: 60%;
-    padding: 2rem;
+    padding: 1rem 1rem;
 }
+
+section h3.title {
+    padding-left: 1rem;
+} 
 
 section.containerHosting div {
     display: flex;
@@ -172,7 +264,7 @@ article.hostingCard {
     width: 29%;
 }
 
-.hostingCard {
+section div article.hostingCard {
     background-color: white;
     padding: 0.385rem;    
     box-shadow: 0 0 16px #0000002e;
@@ -217,19 +309,44 @@ article.hostingCard {
     color: #F2F2F2;
 }
 
-a.showMore {
+section a.showMore {
     font-weight: bold;
     color: black;
     text-decoration: none;
     margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+@media all and (max-width: 1024px) {
+    main {
+        display: flex;
+    }
+    
+    section.containerHosting {
+        max-width: 100%;
+        margin-right: 1rem;
+        padding: 1rem 0 2rem 0rem;   
+    }
+
+    article.hostingCard {
+        width: 62%;
+    }
+
+    section_h3 { 
+        margin-left: 1rem;
+    }
+
+    section a.showMore {
+        padding-left: 1rem;
+    } 
 }
 
 /* hosting popular */
-main aside {
+aside {
     background-color: #F2F2F2;
     border-radius: 1.5rem;
-    max-width: 30%;
-    padding: 2rem 2rem;
+    max-width: 32%;
+    padding: 1rem 2rem 2rem 2rem;
 }
 
 .popularTitle {
@@ -238,11 +355,11 @@ main aside {
     padding-bottom: .2rem;
 }
 
-figcaption {
+aside div figcaption {
     margin-left: 1rem;
 }
 
-article.popularCard {
+aside article.popularCard {
     background-color: white;
     margin-top: 2rem;
     padding: 0.4rem;
@@ -279,18 +396,41 @@ div.popularGrade2  {
     margin: 4rem 1rem;
 }
 
+@media all and (max-width: 1024px) {
+    main aside {
+        flex-direction: column;
+        max-width: 100%;
+        padding: 1rem;
+    }
+
+    aside article.popularCard {
+        max-height: 150px;
+        display: flex;
+    }
+
+    .popularImg {
+        width: 40%;
+    }
+
+    div.popularGrade1, .popularGrade3  {
+        margin: 2rem 1rem;
+    }
+    
+    div.popularGrade2  {
+        margin: 1rem 1rem;
+    }
+}
 /* paramètres activity */
-section.containerActivity {
-    max-width: 100%;
+section.containerActivity {    
     margin-top: 2%;
+    justify-content: space-between;
 }
 
 section.containerActivity div {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex;    
     justify-content: space-between;
     border-radius: 1.5rem;
-    width: auto;
+    max-width: 100%;
 }
 
 .activityTitle {
@@ -301,13 +441,15 @@ section.containerActivity div {
 .activityCard {
     flex-direction: column;
     align-content: space-between;
+    
+    
 }
 
 .activityCard1 {
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     height: 440px;
-    width: 420px;
+    width: 424px;
 }
 
 .activityCard1:hover {
@@ -317,8 +459,8 @@ section.containerActivity div {
 .activityCard2 {
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
-    height: 190px;
-    width: 420px;
+    height: 202px;
+    width: 424px;
 }
 
 .activityCard2:hover {
@@ -328,8 +470,8 @@ section.containerActivity div {
 .activityCard3 {
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
-    height: 190px;
-    width: 420px;
+    height: 202px;
+    width: 424px;
 }
 
 .activityCard3:hover {
@@ -340,7 +482,7 @@ section.containerActivity div {
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     height: 440px;
-    width: 420px;
+    width: 424px;
 }
 
 .activityCard4:hover {
@@ -350,8 +492,8 @@ section.containerActivity div {
 .activityCard5 {
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
-    height: 190px;
-    width: 420px;
+    height: 202px;
+    width: 424px;
 }
 
 .activityCard5:hover {
@@ -361,8 +503,8 @@ section.containerActivity div {
 .activityCard6 {
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
-    height: 190px;
-    width: 420px;    
+    height: 202px;
+    width: 424px;
 }
 
 .activityCard6:hover {
@@ -378,7 +520,7 @@ section.containerActivity div {
 }
 
 .activityImg2, .activityImg3, .activityImg5, .activityImg6 {
-    height: 65%;
+    height: 68%;
     object-fit: cover;
     object-position: center;
     width: 100%;
@@ -386,26 +528,45 @@ section.containerActivity div {
 }
 
 div h4 {
-    margin-left: 6%;
+    margin-left: 4%;
+}
+
+@media all and (max-width: 1024px) {
+    .activityTitle {
+        margin: 1rem;
+    }
+
+    .activityCard1, .activityCard2, .activityCard3, .activityCard4, .activityCard5, .activityCard6 {
+        height: 190px;
+        width: 100%;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .activityImg1, .activityImg2, .activityImg3, .activityImg4, .activityImg5, .activityImg6 {
+        height: 9rem;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        border-radius: 1rem 1rem 0 0;
+    }
 }
 
 footer {
+    display: flex;
     background-color: #F2F2F2;
     margin-top: 2%;
 }
 
 footer div {
     display: flex;
+    flex-direction: column;
     margin-right: auto;
     margin-bottom: auto;
     margin-left: 2rem;
     padding-top: 1rem;
-    padding-bottom: 1rem;    
+    padding-bottom: 2rem;    
 }
-
-footer div div {
-    flex-direction: column;
-} 
 
 footer a {
     text-decoration: none;
@@ -417,15 +578,31 @@ footer #title {
     margin-left: 0;
 }
 
-footer #return {
+#return {
     font-size: 2rem;
-    margin: auto 4rem auto 0;
+    margin: 1rem 1rem 1rem auto;
     box-shadow: 0 0 20px #0000002e;
     border-radius: 100%;
-    width: 4rem;
+    width: 3rem;
+    height: 3rem;
+    padding-bottom: .1rem;
     text-align: center;
 }
 
 #return:hover {
     transform: scale(1.2);
+}
+
+@media all and (max-widht: 1024px) {    
+    footer {
+        flex-direction: column;
+         
+    footer div {
+        color: black;
+        line-height: 2;
+    }
+    
+    footer #title {
+        margin-left: 0;
+    }
 }

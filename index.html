@@ -37,13 +37,14 @@
         <input class="searchFormInput" type="search" placeholder="Marseille, France" size="1">
         <button class="searchFormSubmit">
             <span class="searchFormSubmitInputText">Rechercher</span>
+            <i class="searchFormSubmitInputIcon fas fa-search"></i>
         </button>
     </form>
 
-    <!-- filters -->
+    <!-- filters -->    
     <section class="container">
         <h3>Filtres</h3>
-        <div class="filters">
+            <div class="filters">
             <div class="icons">
                 <i class="fas fa-money-bill-wave"></i>
             </div>
@@ -68,11 +69,16 @@
             <span>Animaux autorisés</span>
         </div>
     </section>
+    
+    <div class="icon">
+        <i class="fas fa-info"></i>
+    <span>Plus de 500 logements sont disponibles dans cette ville</i></span>
+    </div>
 
     <main>
         <!-- hosting/hébergement -->
         <section class="containerHosting" id="hosting">
-            <h3>Hébergements à Marseille</h3>
+            <h3 class="title">Hébergements à Marseille</h3>
             <div>
                 <article class="hostingCard">
                     <img class="hostingImg" src="images\hebergements\4_small\1.png" alt="chambre 1">
@@ -257,25 +263,23 @@
     <!-- Footer -->
     <footer>
         <div id="footer">
-            <div>
-                <h4 id="title">À propos</h4>
-                <a href="#">Fonctionnement du site</a>
-                <a href="#">Conditions générales de vente</a>
-                <a href="#">Données et confidentialités</a>
-            </div>
-            <div>
-                <h4 id="title">Nos hébergements</h4>
-                <a href="#">Charte qualité</a>
-                <a href="#">Soumettre votre hôtel</a>
-            </div>
-            <div>
-                <h4 id="title">Assistance</h4>
-                <a href="#">Centre d'aide</a>
-                <a href="#">Nous contacter</a>
-            </div>
-            <a id="return" href="#" class="btn btn-default">▲</a>
+            <h4 id="title">À propos</h4>
+            <a href="#">Fonctionnement du site</a>
+            <a href="#">Conditions générales de vente</a>
+            <a href="#">Données et confidentialités</a>
+        </div>
+        <div>
+            <h4 id="title">Nos hébergements</h4>
+            <a href="#">Charte qualité</a>
+            <a href="#">Soumettre votre hôtel</a>
+        </div>
+        <div>
+            <h4 id="title">Assistance</h4>
+            <a href="#">Centre d'aide</a>
+            <a href="#">Nous contacter</a>
         </div>
     </footer>
+    <div id="return" href="#" class="btn btn-default">▲</div>
 </body>
 
 </html>
