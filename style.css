@@ -106,7 +106,7 @@ form .searchFormSubmitInputIcon {
 /* search/form tablette paysage */
 @media all and (max-width: 1024px) {
     form {
-        max-width: 50%;
+        max-width: 60%;
     }
 
     form .searchFormSubmitInputText {
@@ -739,6 +739,7 @@ footer #title {
 @media all and (max-widht: 1024px) {
     footer {
         flex-direction: column;
+    }
          
     footer div {
         color: black;
@@ -751,13 +752,14 @@ footer #title {
 }
 
 /* footer Iphone 8 portrait */
-@media all and (max-widht: 768px) {    
+@media all and (max-widht: 768px) {
     footer {
-        display: none;
+        flex-direction: column;
     }
-
+    
     footer div {
-        flex-direction: column {
+        width: 100%;
+        flex-direction: column;
         color: black;
         line-height: 2;
     }
