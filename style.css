@@ -106,7 +106,7 @@ form .searchFormSubmitInputIcon {
 /* search/form tablette paysage */
 @media all and (max-width: 1024px) {
     form {
-        max-width: 60%;
+        max-width: 68%;
     }
 
     form .searchFormSubmitInputText {
