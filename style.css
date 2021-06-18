@@ -104,7 +104,7 @@ form .searchFormSubmitInputIcon {
 }
 
 /* search/form tablette paysage */
-@media all and (max-width: 1024px) {
+@media (max-width: 1024px) {
     form {
         max-width: 68%;
     }
@@ -413,7 +413,6 @@ section a.showMore {
         padding-left: 1rem;
     } 
 }
-
 
 /* hosting popular */
 aside {
