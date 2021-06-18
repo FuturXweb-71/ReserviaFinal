@@ -103,44 +103,6 @@ form .searchFormSubmitInputIcon {
     display: none;
 }
 
-/* search/form tablette paysage */
-@media (max-width: 1024px) {
-    form {
-        max-width: 68%;
-    }
-
-    form .searchFormSubmitInputText {
-        display: none;
-    }
-
-    form .searchFormInput {
-        width: 66%;
-    }
-
-    form .searchFormSubmitInputIcon {
-        display: initial;
-    }
-
-    form .searchFormSubmit {
-        border-radius: 1rem 1rem;
-    }
-}
-
-/* search/form Iphone portrait */
-@media all and (max-width: 768px) {
-    form {
-        max-width: 100%;
-    }
-
-    form .searchFormSubmitInputText {
-        display: none;
-    }
-
-    form .searchFormInput {
-        width: 100%;
-    }
-}
-
 /* paramètres section */
 .container {
     display: flex;
@@ -229,50 +191,6 @@ section .icons {
 span {
     padding-left: 1rem;
     padding-right: 2rem;
-}
-
-/* search/filters tablette paysage */
-@media all and (max-width: 1024px) {
-    h3 {
-        padding-top: 1%;
-    }
-    
-    .container {
-        flex-wrap: wrap;
-        margin: 1rem 0 0 0;
-        max-width: 80%;
-    }
-
-    .filters {
-        margin-bottom: 1rem;
-    }
-
-    span {
-        padding-left: .6rem;
-        padding-right: .6rem;
-    }
-}
-
-/* search/filters Iphone portrait */
-@media all and (max-width: 768px) {
-    h3 {
-        padding-top: 2%;
-    }
-    
-    .container {
-        flex-wrap: wrap;
-        margin: 1rem 0 0 0;
-        max-width: 85%;
-    }
-
-    .filters {
-        margin-bottom: 1rem;
-    }
-
-    span {
-        padding-left: .6rem;
-        padding-right: .6rem;
-    }
 }
 
 div.icon {
@@ -364,56 +282,6 @@ section a.showMore {
     margin-left: 1rem;
 }
 
-/* containerHosting tablette paysage */
-@media all and (max-width: 1024px) {    
-    section.containerHosting {
-        max-width: 62%;
-        margin-right: 1rem;
-        padding: 1rem 0 2rem 0rem;   
-    }
-
-    section div article.hostingCard {
-        background-color: white;
-        padding: 0.385rem;    
-        box-shadow: 0 0 16px #0000002e;
-        box-sizing: content-box;
-        margin: 1rem;
-    }
-
-    article.hostingCard {
-        width: 42%;
-        justify-content: space-between;
-    }
-
-    section_h3 { 
-        margin-left: 1rem;
-    }
-
-    section a.showMore {
-        padding-left: 1rem;
-    } 
-}
-
-/* hosting popular Iphone 8 portrait */
-@media all and (max-width: 768px) {
-    section.containerHosting {
-        max-width: 100%;
-        padding: 2rem 0 2rem 0rem;    
-    }
-
-    article.hostingCard {
-        width: 100%;
-    }
-
-    section_h3 { 
-        margin-left: 1rem;
-    }
-
-    section a.showMore {
-        padding-left: 1rem;
-    } 
-}
-
 /* hosting popular */
 aside {
     background-color: #F2F2F2;
@@ -467,57 +335,6 @@ div.popularGrade1, .popularGrade3  {
 
 div.popularGrade2  {
     margin: 4rem 1rem;
-}
-
-/* hosting popular tablette paysage */
-@media all and (max-width: 1024px) {
-    main aside {
-        flex-direction: column;
-        max-width: 100%;
-        padding: 1rem;
-    }
-
-    aside article.popularCard {
-        max-height: 150px;
-        display: flex;
-    }
-
-    .popularImg {
-        width: 40%;
-    }
-
-    div.popularGrade1, .popularGrade3  {
-        margin: 1rem 1rem;
-    }
-    
-    div.popularGrade2  {
-        margin: 1rem 1rem;
-    }
-}
-
-/* popular Iphone 8 portrait */
-@media all and (max-width: 768px) {
-    main aside {
-        max-width: 100%;
-        padding: 1rem;
-    }
-
-    aside article.popularCard {
-        max-height: 150px;
-        display: flex;
-    }
-
-    .popularImg {
-        width: 40%;
-    }
-
-    div.popularGrade1, .popularGrade3  {
-        margin: 2rem 1rem;
-    }
-    
-    div.popularGrade2  {
-        margin: 1rem 1rem;
-    }
 }
 
 /* paramètres activity */
@@ -629,69 +446,6 @@ div h4 {
     margin-left: 4%;
 }
 
-/* activity tablette paysage */
-@media all and (max-width: 1024px) {
-    .activityTitle {
-        margin: 1rem;
-    }
-
-    .activityCard1, .activityCard4 {        
-        width: 234px;
-        height: 400px;
-    }
-
-    .activityCard2, .activityCard3, .activityCard5, .activityCard6 {        
-        width: 234px;
-        height: 193px;        
-    }
-
-    .activityCard2 .activityCard5, {        
-        margin-bottom: 2%;
-    }
-
-    .activityCard3, .activityCard6, {        
-        margin-top: 3%;
-     }
-
-    .activityImg1, .activityImg4, {
-        height: 9rem;
-        object-fit: cover;
-        object-position: center;
-        width: 232px;
-        border-radius: 1rem 1rem 0 0;
-    }
-    
-    .activityImg2, .activityImg3, .activityImg5, .activityImg6 {
-        height: 8.3rem;
-        object-fit: cover;
-        object-position: center;
-        width: 100%;
-        border-radius: 1rem 1rem 0 0;
-    }
-}
-
-/* activity Iphone 8 portrait */
-@media all and (max-width: 768px) {
-    .activityTitle {
-        margin: 1rem;
-    }
-
-    .activityCard1, .activityCard2, .activityCard3, .activityCard4, .activityCard5, .activityCard6 {
-        height: 190px;
-        width: 100%;
-        margin-top: 2rem;
-        padding-bottom: 1rem;
-    }
-
-    .activityImg1, .activityImg2, .activityImg3, .activityImg4, .activityImg5, .activityImg6 {
-        height: 9rem;
-        object-fit: cover;
-        object-position: center;
-        width: 100%;
-        border-radius: 1rem 1rem 0 0;
-    }
-}
-
 /* paramètres footer */
 footer {
     display: flex;
@@ -735,7 +489,134 @@ footer #title {
 }
 
 /* footer tablette paysage */
-@media all and (max-widht: 1024px) {
+@media all and (max-widht: 1024px) {    
+    form {
+        max-width: 68%;
+    }
+
+    form .searchFormSubmitInputText {
+        display: none;
+    }
+
+    form .searchFormInput {
+        width: 66%;
+    }
+
+    form .searchFormSubmitInputIcon {
+        display: initial;
+    }
+
+    form .searchFormSubmit {
+        border-radius: 1rem 1rem;
+    }
+
+    h3 {
+        padding-top: 1%;
+    }
+    
+    .container {
+        flex-wrap: wrap;
+        margin: 1rem 0 0 0;
+        max-width: 80%;
+    }
+
+    .filters {
+        margin-bottom: 1rem;
+    }
+
+    span {
+        padding-left: .6rem;
+        padding-right: .6rem;
+    }
+
+    section.containerHosting {
+        max-width: 62%;
+        margin-right: 1rem;
+        padding: 1rem 0 2rem 0rem;   
+    }
+
+    section div article.hostingCard {
+        background-color: white;
+        padding: 0.385rem;    
+        box-shadow: 0 0 16px #0000002e;
+        box-sizing: content-box;
+        margin: 1rem;
+    }
+
+    article.hostingCard {
+        width: 42%;
+        justify-content: space-between;
+    }
+
+    section_h3 { 
+        margin-left: 1rem;
+    }
+
+    section a.showMore {
+        padding-left: 1rem;
+    }
+
+    main aside {
+        flex-direction: column;
+        max-width: 100%;
+        padding: 1rem;
+    }
+
+    aside article.popularCard {
+        max-height: 150px;
+        display: flex;
+    }
+
+    .popularImg {
+        width: 40%;
+    }
+
+    div.popularGrade1, .popularGrade3  {
+        margin: 1rem 1rem;
+    }
+    
+    div.popularGrade2  {
+        margin: 1rem 1rem;
+    }
+
+    .activityTitle {
+        margin: 1rem;
+    }
+
+    .activityCard1, .activityCard4 {        
+        width: 234px;
+        height: 400px;
+    }
+
+    .activityCard2, .activityCard3, .activityCard5, .activityCard6 {        
+        width: 234px;
+        height: 193px;        
+    }
+
+    .activityCard2 .activityCard5, {        
+        margin-bottom: 2%;
+    }
+
+    .activityCard3, .activityCard6, {        
+        margin-top: 3%;
+     }
+
+    .activityImg1, .activityImg4, {
+        height: 9rem;
+        object-fit: cover;
+        object-position: center;
+        width: 232px;
+        border-radius: 1rem 1rem 0 0;
+    }
+    
+    .activityImg2, .activityImg3, .activityImg5, .activityImg6 {
+        height: 8.3rem;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        border-radius: 1rem 1rem 0 0;
+    }
+
     footer {
         flex-direction: column;
     }
@@ -752,6 +633,95 @@ footer #title {
 
 /* footer Iphone 8 portrait */
 @media all and (max-widht: 768px) {
+    form {
+        max-width: 100%;
+    }
+
+    form .searchFormSubmitInputText {
+        display: none;
+    }
+
+    form .searchFormInput {
+        width: 100%;
+    }
+
+    h3 {
+        padding-top: 2%;
+    }
+    
+    .container {
+        flex-wrap: wrap;
+        margin: 1rem 0 0 0;
+        max-width: 85%;
+    }
+
+    .filters {
+        margin-bottom: 1rem;
+    }
+
+    span {
+        padding-left: .6rem;
+        padding-right: .6rem;
+    }
+
+    section.containerHosting {
+        max-width: 100%;
+        padding: 2rem 0 2rem 0rem;    
+    }
+
+    article.hostingCard {
+        width: 100%;
+    }
+
+    section_h3 { 
+        margin-left: 1rem;
+    }
+
+    section a.showMore {
+        padding-left: 1rem;
+    }
+
+    main aside {
+        max-width: 100%;
+        padding: 1rem;
+    }
+
+    aside article.popularCard {
+        max-height: 150px;
+        display: flex;
+    }
+
+    .popularImg {
+        width: 40%;
+    }
+
+    div.popularGrade1, .popularGrade3  {
+        margin: 2rem 1rem;
+    }
+    
+    div.popularGrade2  {
+        margin: 1rem 1rem;
+    }
+
+    .activityTitle {
+        margin: 1rem;
+    }
+
+    .activityCard1, .activityCard2, .activityCard3, .activityCard4, .activityCard5, .activityCard6 {
+        height: 190px;
+        width: 100%;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .activityImg1, .activityImg2, .activityImg3, .activityImg4, .activityImg5, .activityImg6 {
+        height: 9rem;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        border-radius: 1rem 1rem 0 0;
+    }
+    
     footer {
         flex-direction: column;
     }
