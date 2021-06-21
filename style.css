@@ -487,13 +487,13 @@ footer #title {
     transform: scale(1.2);
 }
 
-@media (max-widht: 1024px) {    
-    header {
-        width: fit-content;
+@media all and (max-width: 1024px) {    
+    header div {
+        width: 44%;
     }
     
     form {
-        max-width: 50%;
+        max-width: 44%;
     }
 
     form .searchFormSubmitInputText {
@@ -515,24 +515,23 @@ footer #title {
     h3 {
         padding-top: 1%;
     }
-    
-    .container {
-        flex-wrap: wrap;
-        margin: 1rem 0 0 0;
-        max-width: 80%;
+
+     section.container {
+        max-width: 100%;
     }
 
     .filters {
         margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 2rem;
     }
 
     span {
-        padding-left: .6rem;
-        padding-right: .6rem;
+        padding-right: 1rem;
     }
 
     section.containerHosting {
-        max-width: 62%;
+        max-width: 60%;
         margin-right: 1rem;
         padding: 1rem 0 2rem 0rem;   
     }
@@ -595,19 +594,17 @@ footer #title {
         height: 193px;        
     }
 
-    .activityCard2 .activityCard5, {        
+    .activityCard2 .activityCard5 {        
         margin-bottom: 2%;
     }
 
-    .activityCard3, .activityCard6, {        
+    .activityCard3, .activityCard6 {        
         margin-top: 3%;
      }
 
-    .activityImg1, .activityImg4, {
-        height: 9rem;
+    .activityImg1, .activityImg4 {
         object-fit: cover;
         object-position: center;
-        width: 232px;
         border-radius: 1rem 1rem 0 0;
     }
     
@@ -617,10 +614,6 @@ footer #title {
         object-position: center;
         width: 100%;
         border-radius: 1rem 1rem 0 0;
-    }
-
-    footer {
-        flex-direction: column;
     }
          
     footer div {
@@ -633,7 +626,7 @@ footer #title {
     }
 }
 
-@media (max-widht: 768px) {
+@media all and (max-width: 768px) {
     form {
         max-width: 100%;
     }
