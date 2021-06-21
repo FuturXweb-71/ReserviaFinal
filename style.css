@@ -14,15 +14,14 @@ header {
 /* paramètres header/div */
 header div {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    width: 33%;
+    width: 30%;
 }
 
 /* paramètres header/ul */
 header ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style-type: none;
     width: 100%;
 }
@@ -104,7 +103,7 @@ form .searchFormSubmitInputIcon {
 }
 
 /* paramètres section */
-.container {
+section.container {
     display: flex;
     justify-content: space-between;
     margin: 3rem 0 2rem 0;
@@ -119,7 +118,7 @@ form .searchFormSubmitInputIcon {
     align-items: center;
     border: 1px solid #d9d9d9;
     border-radius: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     font-weight: bold;
 }
 
@@ -488,10 +487,13 @@ footer #title {
     transform: scale(1.2);
 }
 
-/* footer tablette paysage */
-@media all and (max-widht: 1024px) {    
+@media (max-widht: 1024px) {    
+    header {
+        width: fit-content;
+    }
+    
     form {
-        max-width: 68%;
+        max-width: 50%;
     }
 
     form .searchFormSubmitInputText {
@@ -631,8 +633,7 @@ footer #title {
     }
 }
 
-/* footer Iphone 8 portrait */
-@media all and (max-widht: 768px) {
+@media (max-widht: 768px) {
     form {
         max-width: 100%;
     }
