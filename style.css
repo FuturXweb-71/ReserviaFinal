@@ -626,7 +626,12 @@ footer #title {
     }
 }
 
+
 @media all and (max-width: 768px) {
+    header img {
+        height: 60px;
+    }
+    
     header div {
        flex-direction: column-reverse;
     }
@@ -654,7 +659,6 @@ footer #title {
     
     section.container {
         flex-direction: column;
-        justify-content: flex-end;
         margin: 1rem 0 0 0;
         max-width: 100%;
     }
@@ -669,6 +673,7 @@ footer #title {
 
     .filters {
         margin-bottom: 1rem;
+        align-content: center;
     }    
 
     main, section.aside {
