@@ -52,15 +52,20 @@ header div ul li a:hover {
     font-weight: bold;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 768px) {
     header img {
-        height: 60px;
-        width: 33%;
+        height: 50px;
+        max-width: 33%;
+        order: -1;
     }
 
-    header {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
+    div .register {
+        order: 0;
+    }
+    
+    div ul {   
+        flex: auto;     
+        align-items: stretch;
+        width: 100%;
     }
 }
