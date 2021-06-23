@@ -450,6 +450,7 @@ footer {
     display: flex;
     background-color: #F2F2F2;
     margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 footer div {
@@ -472,18 +473,20 @@ footer #title {
     margin-left: 0;
 }
 
-#return {
+a.btn-default {
     font-size: 2rem;
-    margin: 1rem 1rem 1rem auto;
+    margin: 4rem 1rem 4rem 1rem;
     box-shadow: 0 0 20px #0000002e;
     border-radius: 100%;
-    width: 3rem;
-    height: 3rem;
-    padding-bottom: .1rem;
+    width: 2%;
+    height: 2%;
+    padding: .5rem 1rem 1rem 1rem;
     text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
-#return:hover {
+a.btn-default:hover {
     transform: scale(1.2);
 }
 
