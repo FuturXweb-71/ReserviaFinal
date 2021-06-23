@@ -157,7 +157,7 @@ div.icon .fas {
     display: flex;
     justify-content: space-between;
     margin: 4rem 4rem 0 0;
-    max-width: 58%;
+    max-width: 60%;
     align-items: baseline;
 }
 
@@ -240,7 +240,7 @@ section div article.hostingCard {
     transform: scale(1.02);
 }
 
-.hostingCaption { 
+section div h3 { 
     margin-left: 1rem;
 }
   
@@ -295,7 +295,7 @@ aside {
     padding-bottom: .2rem;
 }
 
-aside a.popularCaption {
+aside div h3 {
     margin-left: 1rem;
 }
 
@@ -758,7 +758,7 @@ a.btn-default:hover {
         line-height: 2;
     }
     
-    footer #title {
+    footer h4 {
         margin-left: 0;
     }
 }
