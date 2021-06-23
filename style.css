@@ -295,7 +295,7 @@ aside {
     padding-bottom: .2rem;
 }
 
-aside div figcaption {
+aside a.popularCaption {
     margin-left: 1rem;
 }
 
