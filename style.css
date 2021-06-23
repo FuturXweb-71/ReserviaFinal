@@ -107,7 +107,7 @@ section.container {
     display: flex;
     justify-content: space-between;
     margin: 3rem 0 2rem 0;
-    max-width: 64%;
+    max-width: 50%;
     align-items: baseline;
 }
 
@@ -628,7 +628,6 @@ a.btn-default:hover {
         margin-left: 0;
     }
 }
-
 
 @media all and (max-width: 768px) {
     header img {
