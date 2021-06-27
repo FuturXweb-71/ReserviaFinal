@@ -7,52 +7,43 @@ body {
 }
 
 /* paramètres header */
-@media all and (max-width: 768px) {
-    header {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 100%;
-    }
 
-    header img {
-        height: 45px;
-    }
+header img {
+    height: 40px;
+}
 
-    header div {
-        align-content: space-between;
-        width: 72%;
-    }
+header div {
+    width: 100%;
+    justify-content: space-between;
+}
 
-    /* paramètres header/div/ul */
-    header div ul {
-        display: flex;
-        list-style-type: none;
-    }
+/* paramètres header/div/ul */
+header ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;    
+    list-style-type: none;
+}
 
-    header li {
-        justify-items: self-end;
-    }
+/* paramètres header/div/a */
+header div li a {
+    text-decoration: none;
+    color: black;
+}
 
-    /* paramètres header/div/a */
-    header div a {
-        text-decoration: none;
-        color: black;
-    }
+/* paramètres header/div/register */
+header a.register {
+    color: #0065FC;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 1rem;
+    order: 2;
+}
 
-    /* paramètres header/div/register */
-    header a.register {
-        text-decoration: none;
-        color: #0065FC;
-        font-weight: bold;
-        order: 0;
-    }
-
-    /* paramètres header/liens survolés */
-    header div ul li a:hover {
-        color: #0065FC;
-        border-bottom: 3px solid #0065FC;
-        padding-bottom: 10px;
-        font-weight: bold;
-    }
+/* paramètres header/liens survolés */
+div li a:hover {
+    color: #0065FC;
+    border-bottom: 3px solid #0065FC;
+    padding-bottom: 10px;
+    font-weight: bold;
 }
