@@ -475,7 +475,7 @@ footer h4 {
 
 a.btn-default {
     font-size: 2rem;
-    margin: 4rem 1rem 4rem 1rem;
+    margin: 2rem 0 2rem 1rem;
     box-shadow: 0 0 20px #0000002e;
     border-radius: 100%;
     width: 2%;
@@ -488,11 +488,30 @@ a.btn-default {
 
 a.btn-default:hover {
     transform: scale(1.2);
+
 }
 
 @media all and (max-width: 1024px) {    
+    header img {
+        height: 40px;
+    }
+    
     header div {
-        width: 44%;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    header ul {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;    
+        list-style-type: none;
+    }
+    
+    /* paramètres header/div/a */
+    header div li a {
+        text-decoration: none;
+        color: black;
     }
     
     form {
@@ -560,10 +579,11 @@ a.btn-default:hover {
         padding-left: 1rem;
     }
 
-    main aside {
+    main section.aside {
         flex-direction: column;
         max-width: 100%;
         padding: 1rem;
+        margin-right: 1rem;
     }
 
     aside article.popularCard {
@@ -727,7 +747,7 @@ a.btn-default:hover {
         margin: 3rem 0 0 0 ;
     }
 
-    section.containerActivity div {
+    section.containerActivity {
         flex-direction: column;
         margin-bottom: 1rem;
     }
