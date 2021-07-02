@@ -3,7 +3,7 @@
 /* paramètres page police/marges */
 body {
     font-family: "Raleway", "sans-serif";
-    margin: 2% 2%;
+
 }
 
 /* paramètres header */
@@ -12,9 +12,16 @@ header img {
     height: 40px;
 }
 
-header div {
-    width: 100%;
+header {
+    display:flex;
+    flex-direction: column-reverse;
+    width: 80%;
     justify-content: space-between;
+    
+}
+
+header div.register {
+    order: 1;
 }
 
 /* paramètres header/div/ul */

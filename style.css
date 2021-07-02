@@ -649,13 +649,10 @@ a.btn-default:hover {
 }
 
 @media all and (max-width: 768px) {
-    header {
-        flex-wrap: wrap;
-        height: 100px;
-    }
-
     header div {
-        display: flex;
+        width: 80%;
+        height: 100%;
+        flex-wrap: wrap;
     }
     
     header img{
@@ -663,15 +660,15 @@ a.btn-default:hover {
     }
 
     header :nth-child(1) {
-        order: 1;
+        order: 0;
     }
 
     header :nth-child(2) {
-        order: 3;
+        order: 2;
     }
 
-    header a :nth-child(3) {
-        order: 2;
+    header :nth-child(3) {
+        order: 1;
     }
     
     form {
