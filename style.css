@@ -649,14 +649,16 @@ a.btn-default:hover {
 }
 
 @media all and (max-width: 768px) {
-    header div {
-        width: 80%;
-        height: 100%;
-        flex-wrap: wrap;
+    header {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        height: 100px;
     }
     
     header img{
         height: 40px;
+        position: absolute;
     }
 
     header :nth-child(1) {
