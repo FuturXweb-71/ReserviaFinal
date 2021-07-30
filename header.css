@@ -14,7 +14,7 @@ header img {
 
 header {
     display:flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
     width: 80%;
     justify-content: space-between;
     
